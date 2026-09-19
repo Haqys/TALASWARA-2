@@ -302,7 +302,7 @@ const LOOKBOOK_ITEMS = [
     id: 'look-01',
     title: 'Bogor Creative Center Urban Fit',
     vibe: 'Streetwear Minimalist / Gen Z Casual',
-    modelPhoto: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=85',
+    modelPhoto: 'assets/outfit-1.jpg',
     description: 'Kombinasi kasual kemeja semi-oversized dengan celana wide-leg motif Talas dan tote bag kanvas ramah lingkungan.',
     hotspots: [
       {
