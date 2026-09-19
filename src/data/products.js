@@ -316,24 +316,24 @@ export const LOOKBOOK_ITEMS = [
         productId: 'talas-01',
         name: 'Kemeja Batik Talas Semi-Oversized',
         price: 289000,
-        x: 62, // percent
-        y: 35  // percent
+        x: 10, // percent
+        y: 15  // percent
       },
       {
         id: 'hs-2',
         productId: 'talas-03',
         name: 'Celana Wide-Leg Motif Talas',
         price: 299000,
-        x: 70,
-        y: 68
+        x: 10,
+        y: 30
       },
       {
         id: 'hs-3',
         productId: 'talas-04',
         name: 'Tote Bag Reusable Batik',
         price: 99000,
-        x: 55,
-        y: 80
+        x: 10,
+        y: 45
       }
     ]
   },
