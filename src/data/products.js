@@ -96,12 +96,12 @@ export const PRODUCTS = [
     isBestSeller: true,
     description: 'Celana wide-leg siluet longgar yang memberikan kenyamanan maksimal sepanjang hari. Motif geometris Daun Talas ditempatkan pada panel samping vertikal untuk ilusi visual proporsi kaki lebih jenjang.',
     images: [
-      'https://images.unsplash.com/photo-1551803091-e20673f15770?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=900&q=80'
+      'assets/celana-biru.jpg',
+      'assets/celana-hijau.jpg'
     ],
     colors: [
-      { name: 'Deep Indigo Blue', hex: '#1E2050', selected: true },
-      { name: 'Botanical Natural Blend', hex: '#526E8F', selected: false }
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: true },
+      { name: 'Hijau Natural', hex: '#4A5D23', selected: false }
     ],
     sizes: ['S', 'M', 'L', 'XL'],
     stock: { S: 6, M: 14, L: 9, XL: 2 },
