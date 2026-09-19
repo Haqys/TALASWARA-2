@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>TALASWARA — Where Heritage Meets Sustainability | Eco-Batik Spirulina Bogor</title>
-  <meta name="description" content="Streetwear batik ramah lingkungan berbahan katun organik dengan inovasi pigmen biru alami Spirulina dan motif khas Daun Talas Bogor. Diproduksi etis bersama pengrajin lokal Kampung Batik Cibuluh." />
-  
+  <meta name="description"
+    content="Streetwear batik ramah lingkungan berbahan katun organik dengan inovasi pigmen biru alami Spirulina dan motif khas Daun Talas Bogor. Diproduksi etis bersama pengrajin lokal Kampung Batik Cibuluh." />
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="./assets/talaswara-logo-blue.png" id="favicon-link" />
-  
+
   <!-- Google Fonts: Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+    rel="stylesheet">
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -52,12 +56,15 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="./style.css">
 </head>
-<body class="bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white transition-colors duration-300 font-sans selection:bg-[#1E2050] selection:text-white dark:selection:bg-white dark:selection:text-[#1E2050] overflow-x-hidden antialiased pb-20 md:pb-0">
+
+<body
+  class="bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white transition-colors duration-300 font-sans selection:bg-[#1E2050] selection:text-white dark:selection:bg-white dark:selection:text-[#1E2050] overflow-x-hidden antialiased pb-20 md:pb-0">
 
   <!-- ========================================== -->
   <!-- 1. RUNNING TICKER TOP BAR                  -->
   <!-- ========================================== -->
-  <div class="bg-[#1E2050] text-white dark:bg-black/40 border-b border-white/10 overflow-hidden py-2 text-[11px] md:text-xs font-semibold select-none z-50">
+  <div
+    class="bg-[#1E2050] text-white dark:bg-black/40 border-b border-white/10 overflow-hidden py-2 text-[11px] md:text-xs font-semibold select-none z-50">
     <div class="animate-ticker flex items-center gap-8">
       <span class="flex items-center gap-2">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
@@ -101,23 +108,25 @@
   <!-- ========================================== -->
   <!-- 2. STICKY HEADER & NAVIGATION              -->
   <!-- ========================================== -->
-  <header class="sticky top-0 z-40 w-full transition-colors duration-300 bg-white/95 text-[#1E2050] dark:bg-[#1E2050]/95 dark:text-white glass-panel border-b border-[#1E2050]/10 dark:border-white/15 shadow-sm">
-    <div class="w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 h-16 md:h-20 flex items-center justify-between gap-6">
-      
+  <header
+    class="sticky top-0 z-40 w-full transition-colors duration-300 bg-white/95 text-[#1E2050] dark:bg-[#1E2050]/95 dark:text-white glass-panel border-b border-[#1E2050]/10 dark:border-white/15 shadow-sm">
+    <div
+      class="w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 h-16 md:h-20 flex items-center justify-between gap-6">
+
       <!-- Brand Logo (Left) -->
       <a href="#" class="flex items-center gap-3 select-none group">
         <!-- Leaf Motif Logo (Blue in light mode, White in dark mode) -->
-        <div class="relative flex-shrink-0 transition-transform duration-300 group-hover:scale-105 flex items-center justify-center">
-          <img 
-            src="./assets/talaswara-logo-blue.png" 
-            alt="TALASWARA Logo" 
-            class="brand-logo-img w-16 h-16 md:w-20 md:h-20 object-contain transition-all duration-300"
-          />
+        <div
+          class="relative flex-shrink-0 transition-transform duration-300 group-hover:scale-105 flex items-center justify-center">
+          <img src="./assets/talaswara-logo-blue.png" alt="TALASWARA Logo"
+            class="brand-logo-img w-16 h-16 md:w-20 md:h-20 object-contain transition-all duration-300" />
         </div>
-        
+
         <div class="flex flex-col leading-tight">
           <span class="text-xl md:text-2xl font-black tracking-wider uppercase">TALASWARA</span>
-          <span class="text-[8px] md:text-[9px] font-semibold tracking-widest uppercase opacity-75 hidden sm:inline-block">Where Heritage Meets Sustainability</span>
+          <span
+            class="text-[8px] md:text-[9px] font-semibold tracking-widest uppercase opacity-75 hidden sm:inline-block">Where
+            Heritage Meets Sustainability</span>
         </div>
       </a>
 
@@ -133,53 +142,40 @@
 
       <!-- Right Action Tools (Search, Wishlist, Theme Toggle, Cart) -->
       <div class="flex items-center gap-2 sm:gap-3">
-        
+
         <!-- Live Search Trigger -->
-        <button 
-          type="button" 
-          onclick="openSearchModal()" 
+        <button type="button" onclick="openSearchModal()"
           class="w-10 h-10 rounded-full flex items-center justify-center hover:bg-black/5 dark:hover:bg-white/10 transition-colors"
-          title="Cari Produk"
-          aria-label="Cari Produk"
-        >
+          title="Cari Produk" aria-label="Cari Produk">
           <i data-lucide="search" class="w-5 h-5"></i>
         </button>
 
         <!-- Theme Mode Switcher -->
-        <button 
-          type="button" 
-          onclick="toggleTheme()" 
+        <button type="button" onclick="toggleTheme()"
           class="w-10 h-10 rounded-full flex items-center justify-center hover:bg-black/5 dark:hover:bg-white/10 transition-colors"
-          title="Ganti Mode Tampilan"
-          aria-label="Ganti Mode Tampilan"
-        >
+          title="Ganti Mode Tampilan" aria-label="Ganti Mode Tampilan">
           <i data-lucide="moon" class="theme-toggle-icon w-5 h-5"></i>
         </button>
 
         <!-- Wishlist Button -->
-        <button 
-          type="button" 
-          onclick="openWishlistDrawer()" 
+        <button type="button" onclick="openWishlistDrawer()"
           class="relative w-10 h-10 rounded-full flex items-center justify-center hover:bg-black/5 dark:hover:bg-white/10 transition-colors"
-          title="Wishlist"
-          aria-label="Wishlist"
-        >
+          title="Wishlist" aria-label="Wishlist">
           <i data-lucide="heart" class="w-5 h-5"></i>
-          <span class="wishlist-count-badge absolute -top-0.5 -right-0.5 w-5 h-5 rounded-full bg-rose-500 text-white text-[10px] font-bold hidden items-center justify-center border-2 border-white dark:border-[#1E2050]">
+          <span
+            class="wishlist-count-badge absolute -top-0.5 -right-0.5 w-5 h-5 rounded-full bg-rose-500 text-white text-[10px] font-bold hidden items-center justify-center border-2 border-white dark:border-[#1E2050]">
             0
           </span>
         </button>
 
         <!-- Cart Button -->
-        <button 
-          type="button" 
-          onclick="openCartDrawer()" 
+        <button type="button" onclick="openCartDrawer()"
           class="cart-trigger-btn relative flex items-center gap-2 px-3.5 py-2 rounded-full bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] text-xs font-bold transition-all duration-300 shadow-md hover:shadow-lg active:scale-95"
-          aria-label="Keranjang Belanja"
-        >
+          aria-label="Keranjang Belanja">
           <i data-lucide="shopping-bag" class="w-4 h-4"></i>
           <span class="hidden sm:inline">Keranjang</span>
-          <span class="cart-count-badge w-5 h-5 rounded-full bg-sky-400 text-[#1E2050] text-[10px] font-black hidden items-center justify-center">
+          <span
+            class="cart-count-badge w-5 h-5 rounded-full bg-sky-400 text-[#1E2050] text-[10px] font-black hidden items-center justify-center">
             0
           </span>
         </button>
@@ -190,22 +186,27 @@
   </header>
 
   <!-- ========================================== -->
-  <!-- 3. HERO SECTION (SPLIT EDITORIAL)          -->
+  <!-- 3. HERO SECTION (SPLIT EDITORIAL GEN Z)    -->
   <!-- ========================================== -->
-  <section id="rilisan-baru" class="relative overflow-hidden py-12 md:py-20 border-b border-[#1E2050]/10 dark:border-white/15">
-    
+  <section id="rilisan-baru"
+    class="relative overflow-hidden py-12 md:py-20 border-b border-[#1E2050]/10 dark:border-white/15">
+
     <!-- Subtle Background Accents -->
-    <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-sky-400/10 blur-3xl pointer-events-none"></div>
-    <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 rounded-full bg-emerald-400/10 blur-3xl pointer-events-none"></div>
+    <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-sky-400/10 blur-3xl pointer-events-none">
+    </div>
+    <div
+      class="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 rounded-full bg-emerald-400/10 blur-3xl pointer-events-none">
+    </div>
 
     <div class="w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-        
+
         <!-- Left Editorial Copy (7 cols) -->
         <div class="lg:col-span-7 flex flex-col items-start z-10">
-          
+
           <!-- Gen Z Pill Badge -->
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#1E2050]/5 dark:bg-white/10 text-[#1E2050] dark:text-white border border-[#1E2050]/10 dark:border-white/20 mb-6 pulse-ring-badge">
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#1E2050]/5 dark:bg-white/10 text-[#1E2050] dark:text-white border border-[#1E2050]/10 dark:border-white/20 mb-6 pulse-ring-badge">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
             Koleksi Urban Heritage 2026 • Bogor Series
           </div>
@@ -213,29 +214,27 @@
           <!-- Bold Gen Z Headline -->
           <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] mb-6">
             Batik Gak Harus Kuno. <br class="hidden sm:inline" />
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#1E2050] via-[#2A3F75] to-sky-500 dark:from-white dark:via-sky-200 dark:to-sky-400">
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-[#1E2050] via-[#2A3F75] to-sky-500 dark:from-white dark:via-sky-200 dark:to-sky-400">
               Lu Aja Yang Salah Gaya.
             </span>
           </h1>
 
           <!-- Sub-headline -->
           <p class="text-base sm:text-lg text-gray-600 dark:text-gray-300 font-normal leading-relaxed max-w-3xl mb-8">
-            Streetwear berkelanjutan berbahan katun organik dengan inovasi pigmen biru alami <b>Spirulina (Arthrospira platensis)</b>. Warisan motif Daun Talas Bogor berpadu dengan potongan boxy & loose-fit masa kini.
+            Streetwear berkelanjutan berbahan katun organik dengan inovasi pigmen biru alami <b>Spirulina (Arthrospira
+              platensis)</b>. Warisan motif Daun Talas Bogor berpadu dengan potongan boxy & loose-fit masa kini.
           </p>
 
           <!-- CTAs & Micro-trust Badges -->
           <div class="flex flex-wrap items-center gap-4 w-full sm:w-auto mb-8">
-            <a 
-              href="#katalog" 
-              class="w-full sm:w-auto px-8 py-4 rounded-2xl font-black text-sm uppercase tracking-wider bg-[#1E2050] text-white hover:bg-[#282A60] dark:bg-white dark:text-[#1E2050] dark:hover:bg-gray-100 transition-all duration-200 active:scale-95 shadow-xl text-center flex items-center justify-center gap-2"
-            >
+            <a href="#katalog"
+              class="w-full sm:w-auto px-8 py-4 rounded-2xl font-black text-sm uppercase tracking-wider bg-[#1E2050] text-white hover:bg-[#282A60] dark:bg-white dark:text-[#1E2050] dark:hover:bg-gray-100 transition-all duration-200 active:scale-95 shadow-xl text-center flex items-center justify-center gap-2">
               <i data-lucide="compass" class="w-4 h-4"></i>
               Jelajahi Koleksi
             </a>
-            <a 
-              href="#cerita-spirulina" 
-              class="w-full sm:w-auto px-7 py-4 rounded-2xl font-bold text-sm uppercase tracking-wider bg-black/5 dark:bg-white/10 hover:bg-black/10 dark:hover:bg-white/20 transition-all duration-200 text-center flex items-center justify-center gap-2"
-            >
+            <a href="#cerita-spirulina"
+              class="w-full sm:w-auto px-7 py-4 rounded-2xl font-bold text-sm uppercase tracking-wider bg-black/5 dark:bg-white/10 hover:bg-black/10 dark:hover:bg-white/20 transition-all duration-200 text-center flex items-center justify-center gap-2">
               <i data-lucide="microscope" class="w-4 h-4 text-sky-400"></i>
               Inovasi Spirulina Kami
             </a>
@@ -261,15 +260,15 @@
 
         <!-- Right Dynamic Visuals (5 cols) -->
         <div class="lg:col-span-5 relative">
-          <div class="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-[#282A60] group">
-            <img 
-              src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1200&q=85" 
-              alt="Model Talaswara Batik Streetwear Bogor" 
-              class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
-            />
-            
+          <div
+            class="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-[#282A60] group">
+            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1200&q=85"
+              alt="Model Talaswara Batik Streetwear Bogor"
+              class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
+
             <!-- Floating Floating Editorial Tag 1 -->
-            <div class="absolute top-4 left-4 p-3 rounded-2xl bg-white/90 dark:bg-[#1E2050]/90 backdrop-blur-md shadow-lg border border-white/40 dark:border-white/15 flex items-center gap-3">
+            <div
+              class="absolute top-4 left-4 p-3 rounded-2xl bg-white/90 dark:bg-[#1E2050]/90 backdrop-blur-md shadow-lg border border-white/40 dark:border-white/15 flex items-center gap-3">
               <div class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></div>
               <div>
                 <p class="text-[10px] uppercase font-bold text-gray-400">Pigmen Alami</p>
@@ -278,7 +277,8 @@
             </div>
 
             <!-- Floating Editorial Tag 2 -->
-            <div class="absolute bottom-4 right-4 p-3 rounded-2xl bg-[#1E2050]/90 text-white dark:bg-white/95 dark:text-[#1E2050] backdrop-blur-md shadow-lg border border-white/20 flex items-center gap-3">
+            <div
+              class="absolute bottom-4 right-4 p-3 rounded-2xl bg-[#1E2050]/90 text-white dark:bg-white/95 dark:text-[#1E2050] backdrop-blur-md shadow-lg border border-white/20 flex items-center gap-3">
               <i data-lucide="map-pin" class="w-4 h-4 text-sky-400"></i>
               <div>
                 <p class="text-[10px] uppercase font-bold opacity-75">Lokasi Pengambilan</p>
@@ -299,10 +299,12 @@
   <section class="py-10 bg-[#F8F9FA] dark:bg-[#282A60] border-b border-[#1E2050]/10 dark:border-white/15">
     <div class="w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        
+
         <!-- Pillar 1 -->
-        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/5 dark:border-white/10 shadow-sm transition-all duration-200 hover:-translate-y-1">
-          <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-600 dark:text-sky-400 flex items-center justify-center flex-shrink-0">
+        <div
+          class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/5 dark:border-white/10 shadow-sm transition-all duration-200 hover:-translate-y-1">
+          <div
+            class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-600 dark:text-sky-400 flex items-center justify-center flex-shrink-0">
             <i data-lucide="microscope" class="w-6 h-6"></i>
           </div>
           <div>
@@ -314,8 +316,10 @@
         </div>
 
         <!-- Pillar 2 -->
-        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/5 dark:border-white/10 shadow-sm transition-all duration-200 hover:-translate-y-1">
-          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center flex-shrink-0">
+        <div
+          class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/5 dark:border-white/10 shadow-sm transition-all duration-200 hover:-translate-y-1">
+          <div
+            class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center flex-shrink-0">
             <i data-lucide="leaf" class="w-6 h-6"></i>
           </div>
           <div>
@@ -327,8 +331,10 @@
         </div>
 
         <!-- Pillar 3 -->
-        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/5 dark:border-white/10 shadow-sm transition-all duration-200 hover:-translate-y-1">
-          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 flex items-center justify-center flex-shrink-0">
+        <div
+          class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/5 dark:border-white/10 shadow-sm transition-all duration-200 hover:-translate-y-1">
+          <div
+            class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 flex items-center justify-center flex-shrink-0">
             <i data-lucide="sparkles" class="w-6 h-6"></i>
           </div>
           <div>
@@ -340,8 +346,10 @@
         </div>
 
         <!-- Pillar 4 -->
-        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/5 dark:border-white/10 shadow-sm transition-all duration-200 hover:-translate-y-1">
-          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center flex-shrink-0">
+        <div
+          class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/5 dark:border-white/10 shadow-sm transition-all duration-200 hover:-translate-y-1">
+          <div
+            class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center flex-shrink-0">
             <i data-lucide="users" class="w-6 h-6"></i>
           </div>
           <div>
@@ -360,35 +368,45 @@
   <!-- 5. MAIN PRODUCT CATALOG (UNIQLO GRID + CRO)-->
   <!-- ========================================== -->
   <section id="katalog" class="py-16 md:py-24 w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-    
+
     <!-- Section Header -->
     <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
       <div>
-        <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#2A3F75] dark:text-sky-400 mb-2">
+        <div
+          class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#2A3F75] dark:text-sky-400 mb-2">
           <i data-lucide="grid" class="w-4 h-4"></i> Katalog Busana Ramah Lingkungan
         </div>
         <h2 class="text-2xl sm:text-4xl font-black tracking-tight">Koleksi Utama TALASWARA</h2>
-        <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-1">Potongan modern, kenyamanan maksimal, dan 100% dampak positif bagi bumi.</p>
+        <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-1">Potongan modern, kenyamanan maksimal, dan
+          100% dampak positif bagi bumi.</p>
       </div>
 
       <!-- Quick Filter Pills -->
       <div class="flex items-center gap-2 overflow-x-auto pb-2 md:pb-0 no-scrollbar">
-        <button type="button" onclick="filterCategory('Semua')" data-category="Semua" class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] shadow-sm">
+        <button type="button" onclick="filterCategory('Semua')" data-category="Semua"
+          class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] shadow-sm">
           Semua
         </button>
-        <button type="button" onclick="filterCategory('Kemeja')" data-category="Kemeja" class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
+        <button type="button" onclick="filterCategory('Kemeja')" data-category="Kemeja"
+          class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
           Kemeja
         </button>
-        <button type="button" onclick="filterCategory('Blouse & Dress')" data-category="Blouse & Dress" class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
+        <button type="button" onclick="filterCategory('Blouse & Dress')" data-category="Blouse & Dress"
+          class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
           Blouse & Dress
         </button>
-        <button type="button" onclick="filterCategory('Bawahan (Rok/Celana)')" data-category="Bawahan (Rok/Celana)" class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
+        <button type="button" onclick="filterCategory('Bawahan (Rok/Celana)')" data-category="Bawahan (Rok/Celana)"
+          class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
           Bawahan
         </button>
-        <button type="button" onclick="filterCategory('Aksesori (Bros/Bandana/Dasi)')" data-category="Aksesori (Bros/Bandana/Dasi)" class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
+        <button type="button" onclick="filterCategory('Aksesori (Bros/Bandana/Dasi)')"
+          data-category="Aksesori (Bros/Bandana/Dasi)"
+          class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
           Aksesori
         </button>
-        <button type="button" onclick="filterCategory('Souvenir (Tote Bag/Pouch/Kipas)')" data-category="Souvenir (Tote Bag/Pouch/Kipas)" class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
+        <button type="button" onclick="filterCategory('Souvenir (Tote Bag/Pouch/Kipas)')"
+          data-category="Souvenir (Tote Bag/Pouch/Kipas)"
+          class="category-filter-pill px-4 py-2 rounded-full text-xs md:text-sm font-semibold whitespace-nowrap transition-all duration-200 bg-[#F8F9FA] text-[#1E2050] border border-[#1E2050]/10 hover:bg-[#1E2050]/5 dark:bg-[#282A60] dark:text-white dark:border-white/15 dark:hover:bg-white/10">
           Souvenir & Zero-Waste
         </button>
       </div>
@@ -404,17 +422,20 @@
   <!-- ========================================== -->
   <!-- 6. INTERACTIVE LOOKBOOK ("HOTSPOTS")       -->
   <!-- ========================================== -->
-  <section id="lookbook" class="py-16 md:py-24 bg-[#F8F9FA] dark:bg-[#282A60]/40 border-y border-[#1E2050]/10 dark:border-white/15">
+  <section id="lookbook"
+    class="py-16 md:py-24 bg-[#F8F9FA] dark:bg-[#282A60]/40 border-y border-[#1E2050]/10 dark:border-white/15">
     <div class="w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-      
+
       <!-- Lookbook Header -->
       <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="inline-block px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sky-500/10 text-sky-600 dark:text-sky-400 mb-2">
-          Inspirasi Gaya & Mix-Match
+        <span
+          class="inline-block px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-sky-500/10 text-sky-600 dark:text-sky-400 mb-2">
+          Mix & Match
         </span>
         <h2 class="text-2xl sm:text-4xl font-black tracking-tight">Gaya Sesuai Character-mu</h2>
         <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-2">
-          Klik titik (+) pada busana model untuk melihat detail outfit atau langsung borong 1 set gaya lengkap dengan 1 klik.
+          Klik titik (+) pada busana model untuk melihat detail outfit atau langsung borong 1 set gaya lengkap dengan 1
+          klik.
         </p>
       </div>
 
@@ -430,34 +451,32 @@
   <!-- 7. INTERACTIVE ECO-IMPACT CALCULATOR       -->
   <!-- ========================================== -->
   <section id="kalkulator-eco" class="py-16 md:py-24 w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-    <div class="rounded-3xl p-6 md:p-12 bg-[#F8F9FA] dark:bg-[#282A60] border border-[#1E2050]/15 dark:border-white/15 shadow-xl">
+    <div
+      class="rounded-3xl p-6 md:p-12 bg-[#F8F9FA] dark:bg-[#282A60] border border-[#1E2050]/15 dark:border-white/15 shadow-xl">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-        
+
         <!-- Left Slider Info (5 cols) -->
         <div class="lg:col-span-5">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 mb-3">
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 mb-3">
             <i data-lucide="calculator" class="w-3.5 h-3.5"></i> Transparansi Ekologis
           </div>
           <h3 class="text-2xl sm:text-3xl font-black tracking-tight">Dampak Positif Belanjamu di Talaswara</h3>
           <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-300 mt-2 leading-relaxed">
-            Setiap busana Talaswara yang kamu kenakan secara nyata menghemat air tanah Bogor dan mencegah limbah pewarna kimia sintetis masuk ke ekosistem sungai.
+            Setiap busana Talaswara yang kamu kenakan secara nyata menghemat air tanah Bogor dan mencegah limbah pewarna
+            kimia sintetis masuk ke ekosistem sungai.
           </p>
 
           <!-- Interactive Slider -->
-          <div class="mt-8 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/10 shadow-sm">
+          <div
+            class="mt-8 p-4 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/10 shadow-sm">
             <div class="flex items-center justify-between text-xs font-bold mb-3">
               <span>Jumlah Pakaian Dibeli:</span>
-              <span id="calc-pieces-display" class="text-sm font-black text-sky-600 dark:text-sky-300">3 Helai Busana</span>
+              <span id="calc-pieces-display" class="text-sm font-black text-sky-600 dark:text-sky-300">3 Helai
+                Busana</span>
             </div>
-            <input 
-              type="range" 
-              id="eco-range-slider" 
-              min="1" 
-              max="10" 
-              value="3" 
-              class="w-full"
-              oninput="updateEcoCalculator(this.value)" 
-            />
+            <input type="range" id="eco-range-slider" min="1" max="10" value="3" class="w-full"
+              oninput="updateEcoCalculator(this.value)" />
             <div class="flex justify-between text-[10px] text-gray-400 font-semibold mt-2">
               <span>1 pcs</span>
               <span>5 pcs</span>
@@ -468,10 +487,12 @@
 
         <!-- Right Metric Counters (7 cols) -->
         <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-4">
-          
+
           <!-- Metric 1: Air Bersih -->
-          <div class="p-5 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/10 shadow-sm flex flex-col justify-between">
-            <div class="w-10 h-10 rounded-xl bg-sky-500/10 text-sky-600 dark:text-sky-400 flex items-center justify-center mb-4">
+          <div
+            class="p-5 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/10 shadow-sm flex flex-col justify-between">
+            <div
+              class="w-10 h-10 rounded-xl bg-sky-500/10 text-sky-600 dark:text-sky-400 flex items-center justify-center mb-4">
               <i data-lucide="droplets" class="w-5 h-5"></i>
             </div>
             <div>
@@ -480,14 +501,17 @@
               </div>
               <div class="text-xs font-bold text-gray-500 dark:text-gray-400 mt-1">Air Tanah Bersih Dihemat</div>
             </div>
-            <div class="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold mt-3 pt-2 border-t border-black/5 dark:border-white/10">
+            <div
+              class="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold mt-3 pt-2 border-t border-black/5 dark:border-white/10">
               ⚡ Setara 48 hari minum
             </div>
           </div>
 
           <!-- Metric 2: Pewarna Kimia Dieliminasi -->
-          <div class="p-5 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/10 shadow-sm flex flex-col justify-between">
-            <div class="w-10 h-10 rounded-xl bg-rose-500/10 text-rose-600 dark:text-rose-400 flex items-center justify-center mb-4">
+          <div
+            class="p-5 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/10 shadow-sm flex flex-col justify-between">
+            <div
+              class="w-10 h-10 rounded-xl bg-rose-500/10 text-rose-600 dark:text-rose-400 flex items-center justify-center mb-4">
               <i data-lucide="shield-alert" class="w-5 h-5"></i>
             </div>
             <div>
@@ -496,14 +520,17 @@
               </div>
               <div class="text-xs font-bold text-gray-500 dark:text-gray-400 mt-1">Limbah Kimia Dicegah</div>
             </div>
-            <div class="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold mt-3 pt-2 border-t border-black/5 dark:border-white/10">
+            <div
+              class="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold mt-3 pt-2 border-t border-black/5 dark:border-white/10">
               ⚡ 0% Logam Berat Masuk Sungai
             </div>
           </div>
 
           <!-- Metric 3: Nol Mikroplastik -->
-          <div class="p-5 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/10 shadow-sm flex flex-col justify-between">
-            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-4">
+          <div
+            class="p-5 rounded-2xl bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/10 shadow-sm flex flex-col justify-between">
+            <div
+              class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-4">
               <i data-lucide="sparkles" class="w-5 h-5"></i>
             </div>
             <div>
@@ -512,7 +539,8 @@
               </div>
               <div class="text-xs font-bold text-gray-500 dark:text-gray-400 mt-1">Katun Biodegradable</div>
             </div>
-            <div class="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold mt-3 pt-2 border-t border-black/5 dark:border-white/10">
+            <div
+              class="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold mt-3 pt-2 border-t border-black/5 dark:border-white/10">
               ⚡ Kembali ke tanah tanpa mikroplastik
             </div>
           </div>
@@ -526,37 +554,46 @@
   <!-- ========================================== -->
   <!-- 8. STORY SECTION: SPIRULINA & CIBULUH      -->
   <!-- ========================================== -->
-  <section id="cerita-spirulina" class="py-16 md:py-24 border-t border-[#1E2050]/10 dark:border-white/15 bg-white dark:bg-[#1E2050]">
+  <section id="cerita-spirulina"
+    class="py-16 md:py-24 border-t border-[#1E2050]/10 dark:border-white/15 bg-white dark:bg-[#1E2050]">
     <div class="w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-        
+
         <!-- Left Visual Collage (5 cols) -->
         <div class="lg:col-span-5 grid grid-cols-2 gap-4">
           <div class="rounded-2xl overflow-hidden aspect-[3/4] shadow-lg">
-            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover" alt="Pengrajin Batik Cibuluh" />
+            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80"
+              class="w-full h-full object-cover" alt="Pengrajin Batik Cibuluh" />
           </div>
           <div class="rounded-2xl overflow-hidden aspect-[3/4] shadow-lg mt-6">
-            <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover" alt="Batik Talaswara Detail" />
+            <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80"
+              class="w-full h-full object-cover" alt="Batik Talaswara Detail" />
           </div>
         </div>
 
         <!-- Right Story Narrative (7 cols) -->
         <div class="lg:col-span-7">
-          <span class="inline-block px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#1E2050]/5 dark:bg-white/10 text-[#1E2050] dark:text-white mb-3">
+          <span
+            class="inline-block px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#1E2050]/5 dark:bg-white/10 text-[#1E2050] dark:text-white mb-3">
             Inovasi Hayati x Warisan Budaya
           </span>
           <h2 class="text-2xl sm:text-4xl font-black tracking-tight leading-tight">
             Dari Mikroalga Spirulina Menjadi Pigmen Biru Masa Depan
           </h2>
           <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-300 mt-4 leading-relaxed">
-            TALASWARA lahir dari kegelisahan terhadap industri tekstil yang menjadi penyumbang polusi air terbesar di dunia. Kami berinovasi mengekstrak pigmen biru alami <b>Phycocyanin</b> dari mikroalga <i>Arthrospira platensis</i> budidaya lokal.
+            TALASWARA lahir dari kegelisahan terhadap industri tekstil yang menjadi penyumbang polusi air terbesar di
+            dunia. Kami berinovasi mengekstrak pigmen biru alami <b>Phycocyanin</b> dari mikroalga <i>Arthrospira
+              platensis</i> budidaya lokal.
           </p>
           <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-300 mt-3 leading-relaxed">
-            Bersama <b>Ibu Dwika Lestari</b> dan komunitas pembatik muda di <b>Kampung Batik Cibuluh, Bogor Utara</b>, kami mengombinasikan kearifan canting tradisional dengan pewarnaan alami non-toksik, mewujudkan batik kontemporer yang aman bagi bumi dan relevan untuk gaya hidup modern.
+            Bersama <b>Ibu Dwika Lestari</b> dan komunitas pembatik muda di <b>Kampung Batik Cibuluh, Bogor Utara</b>,
+            kami mengombinasikan kearifan canting tradisional dengan pewarnaan alami non-toksik, mewujudkan batik
+            kontemporer yang aman bagi bumi dan keren untuk Gen Z.
           </p>
 
           <!-- 3 Micro Points -->
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-[#1E2050]/10 dark:border-white/15">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-[#1E2050]/10 dark:border-white/15">
             <div class="flex items-start gap-2">
               <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5"></i>
               <span class="text-xs font-bold">100% Non-Toxic & Hypoallergenic</span>
@@ -580,29 +617,33 @@
   <!-- ========================================== -->
   <!-- 9. SOCIAL PROOF & UGC COMMUNITY            -->
   <!-- ========================================== -->
-  <section id="komunitas" class="py-16 md:py-24 bg-[#F8F9FA] dark:bg-[#282A60]/50 border-t border-[#1E2050]/10 dark:border-white/15">
+  <section id="komunitas"
+    class="py-16 md:py-24 bg-[#F8F9FA] dark:bg-[#282A60]/50 border-t border-[#1E2050]/10 dark:border-white/15">
     <div class="w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-      
+
       <!-- UGC Header -->
       <div class="text-center max-w-2xl mx-auto mb-12">
-        <span class="inline-block px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-rose-500/10 text-rose-600 dark:text-rose-400 mb-2">
-          #TalaswaraOOTD • Komunitas Kawan Talaswara
+        <span
+          class="inline-block px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-rose-500/10 text-rose-600 dark:text-rose-400 mb-2">
+          #TalaswaraOOTD • Komunitas Gen Z
         </span>
         <h2 class="text-2xl sm:text-4xl font-black tracking-tight">Kata Mereka yang Sudah Beralih</h2>
         <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-2">
-          Ulasan jujur dari para pecinta fashion yang bangga berbatik ramah lingkungan.
+          Ulasan jujur dari generasi muda yang bangga berbatik ramah lingkungan.
         </p>
       </div>
 
       <!-- UGC Grid -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        
+
         <!-- Card 1 -->
-        <div class="rounded-2xl p-5 bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/15 shadow-sm flex flex-col justify-between">
+        <div
+          class="rounded-2xl p-5 bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/15 shadow-sm flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-4">
               <div class="flex items-center gap-3">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" class="w-10 h-10 rounded-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+                  class="w-10 h-10 rounded-full object-cover" />
                 <div>
                   <h5 class="text-xs font-black">Alya Ramadhani</h5>
                   <p class="text-[10px] text-gray-400">@alyarmdhn • Bogor</p>
@@ -614,27 +655,33 @@
             </div>
 
             <!-- Fit indicator pill -->
-            <div class="inline-block px-2.5 py-1 rounded-md text-[10px] font-bold bg-sky-500/10 text-sky-700 dark:text-sky-300 mb-3">
+            <div
+              class="inline-block px-2.5 py-1 rounded-md text-[10px] font-bold bg-sky-500/10 text-sky-700 dark:text-sky-300 mb-3">
               ✨ Potongan Oversized Sangat Nyaman
             </div>
 
             <p class="text-xs text-gray-600 dark:text-gray-300 leading-relaxed">
-              "Beneran gak nyangka batik bisa sekeren ini! Cutting-nya boxy ala streetwear jepang, bahannya katun organik adem parah dan warna birunya pigmen Spirulina tuh beda banget feel-nya dibanding pewarna kimia biasa."
+              "Beneran gak nyangka batik bisa sekeren ini! Cutting-nya boxy ala streetwear jepang, bahannya katun
+              organik adem parah dan warna birunya pigmen Spirulina tuh beda banget feel-nya dibanding pewarna kimia
+              biasa."
             </p>
           </div>
 
-          <div class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[11px] text-gray-400 flex items-center justify-between">
+          <div
+            class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[11px] text-gray-400 flex items-center justify-between">
             <span>Membeli: <b>Kemeja Semi-Oversized (M)</b></span>
             <span class="text-emerald-500 font-semibold">✔ Verified Buyer</span>
           </div>
         </div>
 
         <!-- Card 2 -->
-        <div class="rounded-2xl p-5 bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/15 shadow-sm flex flex-col justify-between">
+        <div
+          class="rounded-2xl p-5 bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/15 shadow-sm flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-4">
               <div class="flex items-center gap-3">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" class="w-10 h-10 rounded-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+                  class="w-10 h-10 rounded-full object-cover" />
                 <div>
                   <h5 class="text-xs font-black">Farhan Dwi Putra</h5>
                   <p class="text-[10px] text-gray-400">@farhandwip • Jakarta</p>
@@ -645,27 +692,32 @@
               </div>
             </div>
 
-            <div class="inline-block px-2.5 py-1 rounded-md text-[10px] font-bold bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 mb-3">
+            <div
+              class="inline-block px-2.5 py-1 rounded-md text-[10px] font-bold bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 mb-3">
               🌿 Ukuran Pas Sempurna
             </div>
 
             <p class="text-xs text-gray-600 dark:text-gray-300 leading-relaxed">
-              "Fix no debat brand batik lokal paling progresif. Filosofi daun Talas Bogor-nya kena banget, terus packaging-nya 100% cassava bag tanpa plastik. Bangga pakai Talaswara di kampus!"
+              "Fix no debat brand batik lokal paling progresif. Filosofi daun Talas Bogor-nya kena banget, terus
+              packaging-nya 100% cassava bag tanpa plastik. Bangga pakai Talaswara di kampus!"
             </p>
           </div>
 
-          <div class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[11px] text-gray-400 flex items-center justify-between">
+          <div
+            class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[11px] text-gray-400 flex items-center justify-between">
             <span>Membeli: <b>Celana Wide-Leg + Tote Bag</b></span>
             <span class="text-emerald-500 font-semibold">✔ Verified Buyer</span>
           </div>
         </div>
 
         <!-- Card 3 -->
-        <div class="rounded-2xl p-5 bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/15 shadow-sm flex flex-col justify-between">
+        <div
+          class="rounded-2xl p-5 bg-white dark:bg-[#1E2050] border border-[#1E2050]/10 dark:border-white/15 shadow-sm flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-4">
               <div class="flex items-center gap-3">
-                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80" class="w-10 h-10 rounded-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80"
+                  class="w-10 h-10 rounded-full object-cover" />
                 <div>
                   <h5 class="text-xs font-black">Nadine Aurelia</h5>
                   <p class="text-[10px] text-gray-400">@nadineaurell • Bandung</p>
@@ -676,16 +728,19 @@
               </div>
             </div>
 
-            <div class="inline-block px-2.5 py-1 rounded-md text-[10px] font-bold bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 mb-3">
+            <div
+              class="inline-block px-2.5 py-1 rounded-md text-[10px] font-bold bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 mb-3">
               🧵 Bahan Adem & Lembut di Kulit
             </div>
 
             <p class="text-xs text-gray-600 dark:text-gray-300 leading-relaxed">
-              "Pertama kali nyobain batik pewarna mikroalga Spirulina, tekstur kainnya halus dan gak bikin gatal di kulit sensitif. Desainnya minimalis elegan banget."
+              "Pertama kali nyobain batik pewarna mikroalga Spirulina, tekstur kainnya halus dan gak bikin gatal di
+              kulit sensitif. Desainnya minimalis elegan banget."
             </p>
           </div>
 
-          <div class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[11px] text-gray-400 flex items-center justify-between">
+          <div
+            class="mt-4 pt-3 border-t border-black/5 dark:border-white/10 text-[11px] text-gray-400 flex items-center justify-between">
             <span>Membeli: <b>Blouse Loose-Fit (S)</b></span>
             <span class="text-emerald-500 font-semibold">✔ Verified Buyer</span>
           </div>
@@ -701,28 +756,28 @@
   <!-- ========================================== -->
   <footer class="bg-[#1E2050] text-white dark:bg-black border-t border-white/10 pt-16 pb-24 md:pb-12">
     <div class="w-full max-w-[1700px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16">
-      
+
       <!-- Newsletter Banner -->
-      <div class="p-8 rounded-3xl bg-[#282A60] dark:bg-[#1E2050] border border-white/15 shadow-2xl mb-12 flex flex-col lg:flex-row items-center justify-between gap-6">
+      <div
+        class="p-8 rounded-3xl bg-[#282A60] dark:bg-[#1E2050] border border-white/15 shadow-2xl mb-12 flex flex-col lg:flex-row items-center justify-between gap-6">
         <div class="max-w-xl text-center lg:text-left">
-          <span class="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest bg-emerald-400/20 text-emerald-300">
+          <span
+            class="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest bg-emerald-400/20 text-emerald-300">
             Diskon 10% Pembelian Pertama
           </span>
-          <h3 class="text-xl sm:text-2xl font-black tracking-tight mt-2">Bergabung dengan Gerakan Fashion Berkelanjutan</h3>
-          <p class="text-xs text-gray-300 mt-1">Dapatkan update rilis batch pewarna Spirulina terbatas & voucher khusus pelanggan baru.</p>
+          <h3 class="text-xl sm:text-2xl font-black tracking-tight mt-2">Bergabung dengan Gerakan Fashion Berkelanjutan
+          </h3>
+          <p class="text-xs text-gray-300 mt-1">Dapatkan update rilis batch pewarna Spirulina terbatas & voucher khusus
+            Gen Z.</p>
         </div>
-        
-        <form onsubmit="event.preventDefault(); showToast('Terima kasih! Kode voucher TALASWARA10 dikirimkan ke email Anda 🎁', 'mail'); this.reset();" class="flex w-full lg:w-auto items-center gap-2 max-w-md">
-          <input 
-            type="email" 
-            placeholder="Masukkan alamat email kamu..." 
-            required
-            class="flex-grow px-4 py-3.5 rounded-xl text-xs font-semibold bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white"
-          />
-          <button 
-            type="submit" 
-            class="px-5 py-3.5 rounded-xl font-bold text-xs uppercase tracking-wider bg-white text-[#1E2050] hover:bg-gray-100 transition-all flex-shrink-0"
-          >
+
+        <form
+          onsubmit="event.preventDefault(); showToast('Terima kasih! Kode voucher TALASWARAGENZ dikirimkan ke email Anda 🎁', 'mail'); this.reset();"
+          class="flex w-full lg:w-auto items-center gap-2 max-w-md">
+          <input type="email" placeholder="Masukkan alamat email kamu..." required
+            class="flex-grow px-4 py-3.5 rounded-xl text-xs font-semibold bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white" />
+          <button type="submit"
+            class="px-5 py-3.5 rounded-xl font-bold text-xs uppercase tracking-wider bg-white text-[#1E2050] hover:bg-gray-100 transition-all flex-shrink-0">
             Klaim 10%
           </button>
         </form>
@@ -730,7 +785,7 @@
 
       <!-- Main Footer Links (4 Cols) -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 text-xs">
-        
+
         <!-- Col 1: Brand -->
         <div class="col-span-2 md:col-span-1">
           <div class="flex items-center gap-2 mb-3">
@@ -738,7 +793,8 @@
             <span class="font-black text-base tracking-wider uppercase">TALASWARA</span>
           </div>
           <p class="text-gray-300 text-[11px] leading-relaxed">
-            Where Heritage Meets Sustainability. Batik ramah lingkungan dengan pigmen alami Spirulina & motif khas Daun Talas Bogor.
+            Where Heritage Meets Sustainability. Batik ramah lingkungan dengan pigmen alami Spirulina & motif khas Daun
+            Talas Bogor.
           </p>
         </div>
 
@@ -746,10 +802,15 @@
         <div>
           <h5 class="font-bold text-sm mb-3">Panduan Belanja</h5>
           <ul class="space-y-2 text-gray-300">
-            <li><button type="button" onclick="openSizeGuideModal()" class="hover:text-white transition-colors">Panduan Ukuran (Dewasa & Anak)</button></li>
-            <li><a href="#cerita-spirulina" class="hover:text-white transition-colors">Perawatan Batik Pewarna Alami</a></li>
-            <li><a href="#kalkulator-eco" class="hover:text-white transition-colors">Laporan Dampak Keberlanjutan</a></li>
-            <li><a href="#" onclick="showToast('Kebijakan Retur: Maks 3 hari kerja sejak paket diterima dengan hangtag utuh.', 'info')" class="hover:text-white transition-colors">Kebijakan Retur (Maks 3 Hari)</a></li>
+            <li><button type="button" onclick="openSizeGuideModal()" class="hover:text-white transition-colors">Panduan
+                Ukuran (Dewasa & Anak)</button></li>
+            <li><a href="#cerita-spirulina" class="hover:text-white transition-colors">Perawatan Batik Pewarna Alami</a>
+            </li>
+            <li><a href="#kalkulator-eco" class="hover:text-white transition-colors">Laporan Dampak Keberlanjutan</a>
+            </li>
+            <li><a href="#"
+                onclick="showToast('Kebijakan Retur: Maks 3 hari kerja sejak paket diterima dengan hangtag utuh.', 'info')"
+                class="hover:text-white transition-colors">Kebijakan Retur (Maks 3 Hari)</a></li>
           </ul>
         </div>
 
@@ -770,34 +831,30 @@
           <div class="space-y-2 text-[11px] text-gray-300 mb-4">
             <p class="flex items-center gap-2">
               <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-400"></i>
-              <span>WhatsApp Admin: <a href="https://wa.me/6282147435171" target="_blank" rel="noopener noreferrer" class="font-semibold text-white hover:text-emerald-300 hover:underline">082147435171</a></span>
+              <span>WhatsApp Admin: <a href="https://wa.me/6282147435171" target="_blank" rel="noopener noreferrer"
+                  class="font-semibold text-white hover:text-emerald-300 hover:underline">082147435171</a></span>
             </p>
             <p class="flex items-center gap-2">
               <i data-lucide="mail" class="w-3.5 h-3.5 text-sky-400"></i>
-              <span>Email: <a href="mailto:talaswara.hub@gmail.com" class="font-semibold text-white hover:text-sky-300 hover:underline">talaswara.hub@gmail.com</a></span>
+              <span>Email: <a href="mailto:talaswara.hub@gmail.com"
+                  class="font-semibold text-white hover:text-sky-300 hover:underline">talaswara.hub@gmail.com</a></span>
             </p>
             <p class="flex items-center gap-2">
               <i data-lucide="instagram" class="w-3.5 h-3.5 text-pink-400"></i>
-              <span>Media Sosial: <a href="https://instagram.com/batiktalaswara" target="_blank" rel="noopener noreferrer" class="font-semibold text-white hover:text-pink-300 hover:underline">@batiktalaswara</a></span>
+              <span>Media Sosial: <a href="https://instagram.com/batiktalaswara" target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-semibold text-white hover:text-pink-300 hover:underline">@batiktalaswara</a></span>
             </p>
           </div>
           <div class="flex items-center gap-2.5">
-            <a 
-              href="https://wa.me/6282147435171" 
-              target="_blank" 
-              rel="noopener noreferrer"
+            <a href="https://wa.me/6282147435171" target="_blank" rel="noopener noreferrer"
               class="px-3 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 hover:bg-emerald-500/30 border border-emerald-500/30 text-[11px] font-bold flex items-center gap-1.5 transition-all"
-              title="Chat WhatsApp Admin"
-            >
+              title="Chat WhatsApp Admin">
               <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> Chat Admin
             </a>
-            <a 
-              href="https://instagram.com/batiktalaswara" 
-              target="_blank" 
-              rel="noopener noreferrer"
+            <a href="https://instagram.com/batiktalaswara" target="_blank" rel="noopener noreferrer"
               class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all text-white"
-              title="Instagram @batiktalaswara"
-            >
+              title="Instagram @batiktalaswara">
               <i data-lucide="instagram" class="w-4 h-4"></i>
             </a>
           </div>
@@ -806,9 +863,10 @@
       </div>
 
       <!-- Copyright -->
-      <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-[11px] text-gray-400 gap-2">
+      <div
+        class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-[11px] text-gray-400 gap-2">
         <p>© 2026 TALASWARA. All rights reserved. Inovasi Batik Pewarna Hayati Spirulina Bogor.</p>
-        <p>Crafted with pride for Conscious Living & Sustainable Earth.</p>
+        <p>Crafted with pride for Indonesian Young Generation & Sustainable Earth.</p>
       </div>
 
     </div>
@@ -817,7 +875,8 @@
   <!-- ========================================== -->
   <!-- 11. MOBILE FLOATING BOTTOM BAR             -->
   <!-- ========================================== -->
-  <div class="fixed bottom-0 inset-x-0 z-40 md:hidden bg-white/95 dark:bg-[#1E2050]/95 backdrop-blur-md border-t border-[#1E2050]/10 dark:border-white/15 px-4 py-2 flex items-center justify-around text-[10px] font-bold">
+  <div
+    class="fixed bottom-0 inset-x-0 z-40 md:hidden bg-white/95 dark:bg-[#1E2050]/95 backdrop-blur-md border-t border-[#1E2050]/10 dark:border-white/15 px-4 py-2 flex items-center justify-around text-[10px] font-bold">
     <a href="#" class="flex flex-col items-center gap-1 text-[#1E2050] dark:text-white">
       <i data-lucide="home" class="w-5 h-5"></i>
       <span>Beranda</span>
@@ -830,32 +889,40 @@
       <i data-lucide="sparkles" class="w-5 h-5"></i>
       <span>Lookbook</span>
     </a>
-    <button type="button" onclick="openWishlistDrawer()" class="relative flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400">
+    <button type="button" onclick="openWishlistDrawer()"
+      class="relative flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400">
       <i data-lucide="heart" class="w-5 h-5"></i>
       <span>Wishlist</span>
-      <span class="wishlist-count-badge absolute -top-1 right-1 w-4 h-4 rounded-full bg-rose-500 text-white text-[9px] font-bold hidden items-center justify-center">0</span>
+      <span
+        class="wishlist-count-badge absolute -top-1 right-1 w-4 h-4 rounded-full bg-rose-500 text-white text-[9px] font-bold hidden items-center justify-center">0</span>
     </button>
-    <button type="button" onclick="openCartDrawer()" class="relative flex flex-col items-center gap-1 text-[#1E2050] dark:text-white">
+    <button type="button" onclick="openCartDrawer()"
+      class="relative flex flex-col items-center gap-1 text-[#1E2050] dark:text-white">
       <i data-lucide="shopping-bag" class="w-5 h-5"></i>
       <span>Keranjang</span>
-      <span class="cart-count-badge absolute -top-1 right-1 w-4 h-4 rounded-full bg-sky-500 text-white text-[9px] font-bold hidden items-center justify-center">0</span>
+      <span
+        class="cart-count-badge absolute -top-1 right-1 w-4 h-4 rounded-full bg-sky-500 text-white text-[9px] font-bold hidden items-center justify-center">0</span>
     </button>
   </div>
 
   <!-- ========================================== -->
   <!-- 12. CART DRAWER (SLIDE-OVER)               -->
   <!-- ========================================== -->
-  <div id="cart-backdrop" onclick="closeCartDrawer()" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0"></div>
-  
-  <div id="cart-drawer" class="fixed top-0 right-0 bottom-0 w-full max-w-md bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white z-50 shadow-2xl transition-transform duration-300 transform translate-x-full flex flex-col">
-    
+  <div id="cart-backdrop" onclick="closeCartDrawer()"
+    class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0">
+  </div>
+
+  <div id="cart-drawer"
+    class="fixed top-0 right-0 bottom-0 w-full max-w-md bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white z-50 shadow-2xl transition-transform duration-300 transform translate-x-full flex flex-col">
+
     <!-- Drawer Header -->
     <div class="p-4 sm:p-5 border-b border-[#1E2050]/10 dark:border-white/15 flex items-center justify-between">
       <div class="flex items-center gap-2">
         <i data-lucide="shopping-bag" class="w-5 h-5"></i>
         <h3 class="font-black text-base uppercase tracking-wider">Keranjang Belanja</h3>
       </div>
-      <button type="button" onclick="closeCartDrawer()" class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
+      <button type="button" onclick="closeCartDrawer()"
+        class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
     </div>
@@ -866,7 +933,9 @@
         Tambah <b>Rp61.000</b> lagi untuk <b>Bebas Ongkir</b> se-Indonesia!
       </p>
       <div class="w-full h-2 rounded-full bg-black/10 dark:bg-white/15 overflow-hidden">
-        <div id="free-shipping-progress" class="h-full bg-gradient-to-r from-sky-400 to-emerald-400 transition-all duration-500" style="width: 75%;"></div>
+        <div id="free-shipping-progress"
+          class="h-full bg-gradient-to-r from-sky-400 to-emerald-400 transition-all duration-500" style="width: 75%;">
+        </div>
       </div>
     </div>
 
@@ -876,7 +945,8 @@
     </div>
 
     <!-- Upsell Recommendation -->
-    <div class="p-3.5 mx-4 mb-2 rounded-2xl bg-gradient-to-r from-sky-500/10 to-indigo-500/10 border border-sky-500/20 flex items-center justify-between gap-3">
+    <div
+      class="p-3.5 mx-4 mb-2 rounded-2xl bg-gradient-to-r from-sky-500/10 to-indigo-500/10 border border-sky-500/20 flex items-center justify-between gap-3">
       <div class="flex items-center gap-2.5">
         <span class="text-lg">🎁</span>
         <div>
@@ -884,34 +954,25 @@
           <p class="text-[10px] text-gray-500 dark:text-gray-400">Hemat 20% khusus dalam keranjang</p>
         </div>
       </div>
-      <button 
-        type="button" 
-        onclick="addToCart('talas-05');" 
-        class="px-3 py-1.5 rounded-lg text-xs font-bold bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] flex-shrink-0"
-      >
+      <button type="button" onclick="addToCart('talas-05');"
+        class="px-3 py-1.5 rounded-lg text-xs font-bold bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] flex-shrink-0">
         + Rp49.000
       </button>
     </div>
 
     <!-- Voucher Code Input -->
     <div class="px-4 py-2 flex items-center gap-2">
-      <input 
-        type="text" 
-        id="voucher-input" 
-        placeholder="Kode Kupon (Contoh: TALASWARAGENZ)" 
-        class="flex-grow px-3.5 py-2 rounded-xl text-xs uppercase font-bold bg-[#F8F9FA] dark:bg-[#282A60] border border-[#1E2050]/15 dark:border-white/20 focus:outline-none"
-      />
-      <button 
-        type="button" 
-        onclick="applyVoucher()" 
-        class="px-4 py-2 rounded-xl text-xs font-bold bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050]"
-      >
+      <input type="text" id="voucher-input" placeholder="Kode Kupon (Contoh: TALASWARAGENZ)"
+        class="flex-grow px-3.5 py-2 rounded-xl text-xs uppercase font-bold bg-[#F8F9FA] dark:bg-[#282A60] border border-[#1E2050]/15 dark:border-white/20 focus:outline-none" />
+      <button type="button" onclick="applyVoucher()"
+        class="px-4 py-2 rounded-xl text-xs font-bold bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050]">
         Pakai
       </button>
     </div>
 
     <!-- Drawer Footer / Summary -->
-    <div class="p-4 sm:p-5 border-t border-[#1E2050]/10 dark:border-white/15 space-y-3 bg-[#F8F9FA] dark:bg-[#282A60]/80">
+    <div
+      class="p-4 sm:p-5 border-t border-[#1E2050]/10 dark:border-white/15 space-y-3 bg-[#F8F9FA] dark:bg-[#282A60]/80">
       <div class="space-y-1 text-xs">
         <div class="flex justify-between text-gray-500 dark:text-gray-400">
           <span>Subtotal</span>
@@ -927,11 +988,8 @@
         </div>
       </div>
 
-      <button 
-        type="button" 
-        onclick="openCheckoutModal()" 
-        class="w-full py-3.5 rounded-xl font-black text-xs sm:text-sm uppercase tracking-wider bg-[#1E2050] text-white hover:bg-[#282A60] dark:bg-white dark:text-[#1E2050] dark:hover:bg-gray-100 transition-all duration-200 active:scale-98 shadow-xl flex items-center justify-center gap-2"
-      >
+      <button type="button" onclick="openCheckoutModal()"
+        class="w-full py-3.5 rounded-xl font-black text-xs sm:text-sm uppercase tracking-wider bg-[#1E2050] text-white hover:bg-[#282A60] dark:bg-white dark:text-[#1E2050] dark:hover:bg-gray-100 transition-all duration-200 active:scale-98 shadow-xl flex items-center justify-center gap-2">
         <i data-lucide="lock" class="w-4 h-4"></i>
         Checkout Cepat (QRIS / VA / e-Wallet)
       </button>
@@ -942,13 +1000,18 @@
   <!-- ========================================== -->
   <!-- 13. PRODUCT DETAIL MODAL (PDP)             -->
   <!-- ========================================== -->
-  <div id="pdp-backdrop" onclick="closeProductModal()" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+  <div id="pdp-backdrop" onclick="closeProductModal()"
+    class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0">
+  </div>
 
-  <div id="pdp-modal" class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 pointer-events-none opacity-0 scale-95 transition-all duration-300">
-    <div class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-[#1E2050]/15 dark:border-white/20 p-5 sm:p-8">
-      
+  <div id="pdp-modal"
+    class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 pointer-events-none opacity-0 scale-95 transition-all duration-300">
+    <div
+      class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-[#1E2050]/15 dark:border-white/20 p-5 sm:p-8">
+
       <!-- Close Button -->
-      <button type="button" onclick="closeProductModal()" class="absolute top-4 right-4 p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 z-20">
+      <button type="button" onclick="closeProductModal()"
+        class="absolute top-4 right-4 p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 z-20">
         <i data-lucide="x" class="w-6 h-6"></i>
       </button>
 
@@ -963,17 +1026,22 @@
   <!-- ========================================== -->
   <!-- 14. SIZE GUIDE MODAL (DEWASA & ANAK)       -->
   <!-- ========================================== -->
-  <div id="size-guide-backdrop" onclick="closeSizeGuideModal()" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+  <div id="size-guide-backdrop" onclick="closeSizeGuideModal()"
+    class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0">
+  </div>
 
-  <div id="size-guide-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none opacity-0 scale-95 transition-all duration-300">
-    <div class="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-[#1E2050]/15 dark:border-white/20 p-6 sm:p-8">
-      
+  <div id="size-guide-modal"
+    class="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none opacity-0 scale-95 transition-all duration-300">
+    <div
+      class="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-[#1E2050]/15 dark:border-white/20 p-6 sm:p-8">
+
       <div class="flex items-center justify-between mb-4">
         <div class="flex items-center gap-2">
           <i data-lucide="ruler" class="w-5 h-5 text-sky-500"></i>
           <h3 class="font-black text-lg uppercase tracking-wider">Panduan Ukuran Lengkap</h3>
         </div>
-        <button type="button" onclick="closeSizeGuideModal()" class="p-1.5 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
+        <button type="button" onclick="closeSizeGuideModal()"
+          class="p-1.5 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
@@ -988,22 +1056,23 @@
   <!-- ========================================== -->
   <!-- 15. LIVE SEARCH MODAL                      -->
   <!-- ========================================== -->
-  <div id="search-backdrop" onclick="closeSearchModal()" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+  <div id="search-backdrop" onclick="closeSearchModal()"
+    class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0">
+  </div>
 
-  <div id="search-modal" class="fixed top-16 sm:top-24 inset-x-4 max-w-2xl mx-auto z-50 pointer-events-none opacity-0 scale-95 transition-all duration-300">
-    <div class="rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-[#1E2050]/15 dark:border-white/20 p-5">
-      
+  <div id="search-modal"
+    class="fixed top-16 sm:top-24 inset-x-4 max-w-2xl mx-auto z-50 pointer-events-none opacity-0 scale-95 transition-all duration-300">
+    <div
+      class="rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-[#1E2050]/15 dark:border-white/20 p-5">
+
       <!-- Input with Icon -->
       <div class="relative flex items-center border-b border-[#1E2050]/15 dark:border-white/15 pb-3 mb-3">
         <i data-lucide="search" class="w-5 h-5 text-gray-400 mr-3"></i>
-        <input 
-          type="text" 
-          id="search-live-input" 
-          placeholder="Cari kemeja oversized, tote bag, bandana..." 
+        <input type="text" id="search-live-input" placeholder="Cari kemeja oversized, tote bag, bandana..."
           class="w-full text-sm font-semibold bg-transparent focus:outline-none"
-          oninput="handleSearchInput(this.value)"
-        />
-        <button type="button" onclick="closeSearchModal()" class="p-1 text-gray-400 hover:text-black dark:hover:text-white">
+          oninput="handleSearchInput(this.value)" />
+        <button type="button" onclick="closeSearchModal()"
+          class="p-1 text-gray-400 hover:text-black dark:hover:text-white">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
@@ -1019,15 +1088,19 @@
   <!-- ========================================== -->
   <!-- 16. WISHLIST DRAWER                        -->
   <!-- ========================================== -->
-  <div id="wishlist-backdrop" onclick="closeWishlistDrawer()" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0"></div>
-  
-  <div id="wishlist-drawer" class="fixed top-0 right-0 bottom-0 w-full max-w-md bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white z-50 shadow-2xl transition-transform duration-300 transform translate-x-full flex flex-col">
+  <div id="wishlist-backdrop" onclick="closeWishlistDrawer()"
+    class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0">
+  </div>
+
+  <div id="wishlist-drawer"
+    class="fixed top-0 right-0 bottom-0 w-full max-w-md bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white z-50 shadow-2xl transition-transform duration-300 transform translate-x-full flex flex-col">
     <div class="p-4 sm:p-5 border-b border-[#1E2050]/10 dark:border-white/15 flex items-center justify-between">
       <div class="flex items-center gap-2">
         <i data-lucide="heart" class="w-5 h-5 text-rose-500"></i>
         <h3 class="font-black text-base uppercase tracking-wider">Wishlist Favorit</h3>
       </div>
-      <button type="button" onclick="closeWishlistDrawer()" class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
+      <button type="button" onclick="closeWishlistDrawer()"
+        class="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
     </div>
@@ -1040,33 +1113,42 @@
   <!-- ========================================== -->
   <!-- 17. CHECKOUT & SIMULASI PEMBAYARAN MODAL   -->
   <!-- ========================================== -->
-  <div id="checkout-backdrop" onclick="closeCheckoutModal()" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+  <div id="checkout-backdrop" onclick="closeCheckoutModal()"
+    class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0">
+  </div>
 
-  <div id="checkout-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none opacity-0 scale-95 transition-all duration-300">
-    <div class="relative w-full max-w-xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-[#1E2050]/15 dark:border-white/20 p-6 sm:p-8">
-      
+  <div id="checkout-modal"
+    class="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none opacity-0 scale-95 transition-all duration-300">
+    <div
+      class="relative w-full max-w-xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-[#1E2050]/15 dark:border-white/20 p-6 sm:p-8">
+
       <div class="flex items-center justify-between mb-5">
         <div class="flex items-center gap-2">
           <i data-lucide="shield-check" class="w-5 h-5 text-emerald-500"></i>
           <h3 class="font-black text-lg uppercase tracking-wider">Checkout Berkelanjutan</h3>
         </div>
-        <button type="button" onclick="closeCheckoutModal()" class="p-1.5 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
+        <button type="button" onclick="closeCheckoutModal()"
+          class="p-1.5 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
 
       <form onsubmit="processPayment(event)">
         <!-- Ringkasan Order -->
-        <div id="checkout-order-summary" class="p-4 rounded-2xl bg-[#F8F9FA] dark:bg-[#282A60] border border-[#1E2050]/10 dark:border-white/10 mb-5">
+        <div id="checkout-order-summary"
+          class="p-4 rounded-2xl bg-[#F8F9FA] dark:bg-[#282A60] border border-[#1E2050]/10 dark:border-white/10 mb-5">
           <!-- Injected by JavaScript -->
         </div>
 
         <!-- Detail Pembeli -->
         <div class="space-y-3 mb-5">
           <h4 class="font-bold text-xs uppercase tracking-wider text-gray-400">Data Pengiriman:</h4>
-          <input type="text" required placeholder="Nama Lengkap Penerima" class="w-full px-4 py-2.5 rounded-xl text-xs font-semibold bg-black/5 dark:bg-white/10 border border-[#1E2050]/15 dark:border-white/20 focus:outline-none" />
-          <input type="tel" required placeholder="Nomor WhatsApp (Untuk Resi Otomatis)" class="w-full px-4 py-2.5 rounded-xl text-xs font-semibold bg-black/5 dark:bg-white/10 border border-[#1E2050]/15 dark:border-white/20 focus:outline-none" />
-          <textarea required placeholder="Alamat Pengiriman Lengkap (Kecamatan, Kota, Kode Pos)" rows="2" class="w-full px-4 py-2.5 rounded-xl text-xs font-semibold bg-black/5 dark:bg-white/10 border border-[#1E2050]/15 dark:border-white/20 focus:outline-none"></textarea>
+          <input type="text" required placeholder="Nama Lengkap Penerima"
+            class="w-full px-4 py-2.5 rounded-xl text-xs font-semibold bg-black/5 dark:bg-white/10 border border-[#1E2050]/15 dark:border-white/20 focus:outline-none" />
+          <input type="tel" required placeholder="Nomor WhatsApp (Untuk Resi Otomatis)"
+            class="w-full px-4 py-2.5 rounded-xl text-xs font-semibold bg-black/5 dark:bg-white/10 border border-[#1E2050]/15 dark:border-white/20 focus:outline-none" />
+          <textarea required placeholder="Alamat Pengiriman Lengkap (Kecamatan, Kota, Kode Pos)" rows="2"
+            class="w-full px-4 py-2.5 rounded-xl text-xs font-semibold bg-black/5 dark:bg-white/10 border border-[#1E2050]/15 dark:border-white/20 focus:outline-none"></textarea>
         </div>
 
         <!-- Pilihan Metode Pembayaran -->
@@ -1078,12 +1160,14 @@
               <span>QRIS Instan</span>
               <span class="text-[10px] text-gray-400 font-normal">GoPay, Shopee, BCA</span>
             </label>
-            <label class="flex flex-col items-center p-3 rounded-xl border border-black/10 dark:border-white/20 hover:border-sky-500 cursor-pointer">
+            <label
+              class="flex flex-col items-center p-3 rounded-xl border border-black/10 dark:border-white/20 hover:border-sky-500 cursor-pointer">
               <input type="radio" name="payment-method" class="sr-only" />
               <span>Virtual Account</span>
               <span class="text-[10px] text-gray-400 font-normal">BCA, Mandiri, BRI</span>
             </label>
-            <label class="flex flex-col items-center p-3 rounded-xl border border-black/10 dark:border-white/20 hover:border-sky-500 cursor-pointer">
+            <label
+              class="flex flex-col items-center p-3 rounded-xl border border-black/10 dark:border-white/20 hover:border-sky-500 cursor-pointer">
               <input type="radio" name="payment-method" class="sr-only" />
               <span>Kartu Debit/Kredit</span>
               <span class="text-[10px] text-gray-400 font-normal">Visa, Mastercard</span>
@@ -1092,11 +1176,8 @@
         </div>
 
         <!-- Submit Button -->
-        <button 
-          type="submit" 
-          id="pay-submit-btn"
-          class="w-full py-4 rounded-xl font-black text-xs sm:text-sm uppercase tracking-wider bg-[#1E2050] text-white hover:bg-[#282A60] dark:bg-white dark:text-[#1E2050] dark:hover:bg-gray-100 transition-all duration-200 active:scale-98 shadow-xl flex items-center justify-center gap-2"
-        >
+        <button type="submit" id="pay-submit-btn"
+          class="w-full py-4 rounded-xl font-black text-xs sm:text-sm uppercase tracking-wider bg-[#1E2050] text-white hover:bg-[#282A60] dark:bg-white dark:text-[#1E2050] dark:hover:bg-gray-100 transition-all duration-200 active:scale-98 shadow-xl flex items-center justify-center gap-2">
           <i data-lucide="lock" class="w-4 h-4"></i>
           Bayar Sekarang & Berdayakan Pengrajin
         </button>
@@ -1108,33 +1189,38 @@
   <!-- ========================================== -->
   <!-- 18. SUCCESS ORDER MODAL                    -->
   <!-- ========================================== -->
-  <div id="success-backdrop" onclick="closeSuccessModal()" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0"></div>
+  <div id="success-backdrop" onclick="closeSuccessModal()"
+    class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 transition-opacity duration-300 pointer-events-none opacity-0">
+  </div>
 
-  <div id="success-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none opacity-0 scale-95 transition-all duration-300">
-    <div class="relative w-full max-w-md rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-white/20 p-6 sm:p-8 text-center">
-      
-      <div class="w-16 h-16 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center mx-auto mb-4">
+  <div id="success-modal"
+    class="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none opacity-0 scale-95 transition-all duration-300">
+    <div
+      class="relative w-full max-w-md rounded-3xl bg-white text-[#1E2050] dark:bg-[#1E2050] dark:text-white shadow-2xl border border-white/20 p-6 sm:p-8 text-center">
+
+      <div
+        class="w-16 h-16 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center mx-auto mb-4">
         <i data-lucide="check" class="w-8 h-8 stroke-[3]"></i>
       </div>
 
-      <span class="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest bg-emerald-400/20 text-emerald-500">
+      <span
+        class="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest bg-emerald-400/20 text-emerald-500">
         Order Sukses #TLSW-2026
       </span>
 
       <h3 class="text-2xl font-black mt-3">Terima Kasih, Eco-Warrior!</h3>
       <p class="text-xs text-gray-500 dark:text-gray-300 mt-2 leading-relaxed">
-        Pesanan busana batik Spirulina TALASWARA Anda sedang dipersiapkan dengan kemasan 100% cassava biodegradable oleh tim pengrajin Cibuluh.
+        Pesanan busana batik Spirulina TALASWARA Anda sedang dipersiapkan dengan kemasan 100% cassava biodegradable oleh
+        tim pengrajin Cibuluh.
       </p>
 
-      <div class="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-bold mt-4">
+      <div
+        class="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-bold mt-4">
         🌱 Anda telah menyelamatkan 144+ Liter Air Bersih hari ini!
       </div>
 
-      <button 
-        type="button" 
-        onclick="closeSuccessModal()"
-        class="w-full mt-6 py-3.5 rounded-xl font-bold text-xs uppercase tracking-wider bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050]"
-      >
+      <button type="button" onclick="closeSuccessModal()"
+        class="w-full mt-6 py-3.5 rounded-xl font-bold text-xs uppercase tracking-wider bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050]">
         Lanjut Belanja
       </button>
 
@@ -1144,9 +1230,11 @@
   <!-- ========================================== -->
   <!-- 19. TOAST NOTIFICATION CONTAINER           -->
   <!-- ========================================== -->
-  <div id="toast-container" class="fixed bottom-6 right-4 sm:right-6 z-50 flex flex-col gap-2 max-w-sm pointer-events-none"></div>
+  <div id="toast-container"
+    class="fixed bottom-6 right-4 sm:right-6 z-50 flex flex-col gap-2 max-w-sm pointer-events-none"></div>
 
   <!-- JavaScript App Logic -->
   <script src="./app.js"></script>
 </body>
+
 </html>
