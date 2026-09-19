@@ -19,14 +19,12 @@ export const PRODUCTS = [
     isBestSeller: true,
     description: 'Kemeja semi-oversized dengan potongan boxy kontemporer khas streetwear Gen Z. Menggabungkan motif eksklusif Daun Talas Bogor dengan teknik celup rintang pewarna alami mikroalga Spirulina (Phycocyanin). Lembut, adem, dan 100% biodegradable.',
     images: [
-      'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=80'
+      'assets/kemeja-biru.jpg',
+      'assets/kemeja-hijau.jpg'
     ],
     colors: [
-      { name: 'Deep Spirulina Indigo', hex: '#1E2050', selected: true },
-      { name: 'Botanical Sky Blue', hex: '#4A6FA5', selected: false },
-      { name: 'Natural Canvas Cream', hex: '#F4EFE6', selected: false }
+      { name: 'Biru Signature', hex: '#1E2050', selected: true },
+      { name: 'Hijau Natural', hex: '#4A5D23', selected: false }
     ],
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     stock: { S: 8, M: 15, L: 12, XL: 6, XXL: 3 },
