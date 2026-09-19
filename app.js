@@ -138,12 +138,12 @@ const PRODUCTS = [
     isBestSeller: true,
     description: 'Tas jinjing kanvas katun tebal 14oz dengan kompartemen laptop 14 inci, slot botol tumbler, dan saku ritsleting dalam. Tahan beban hingga 15 kg untuk aktivitas harian tanpa kantong plastik sekali pakai.',
     images: [
-      'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?auto=format&fit=crop&w=900&q=80'
+      'assets/totebag-biru.jpg',
+      'assets/totebag-hijau.jpg'
     ],
     colors: [
-      { name: 'Natural Raw Ecru + Indigo', hex: '#EBE6DC', selected: true },
-      { name: 'Full Spirulina Blue', hex: '#1E2050', selected: false }
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: true },
+      { name: 'Hijau Natural', hex: '#4A5D23', selected: false }
     ],
     sizes: ['One Size'],
     stock: { 'One Size': 45 },
