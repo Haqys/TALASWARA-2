@@ -62,14 +62,12 @@ const PRODUCTS = [
     isBestSeller: true,
     description: 'Blouse berpotongan rileks dengan aksen kerah mandarin modern dan detail lipit asimetris motif Daun Talas. Didesain fleksibel untuk kuliah, nongkrong di café, hingga hangout di Bogor Creative Center.',
     images: [
-      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80'
+      'assets/blouse-hijau.jpg',
+      'assets/blouse-biru.jpg'
     ],
     colors: [
-      { name: 'Spirulina Cyan Wash', hex: '#3E5A99', selected: true },
-      { name: 'Pure Talas Indigo', hex: '#1E2050', selected: false },
-      { name: 'Ecru Off-White', hex: '#FAF7F2', selected: false }
+      { name: 'Hijau Natural', hex: '#4A5D23', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
     sizes: ['S', 'M', 'L', 'XL'],
     stock: { S: 5, M: 11, L: 8, XL: 4 },
