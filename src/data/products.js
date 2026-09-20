@@ -94,7 +94,7 @@ export const PRODUCTS = [
     secondaryBadge: 'Unisex Fit',
     isNew: false,
     isBestSeller: true,
-    description: 'Celana wide-leg siluet longgar yang memberikan kenyamanan maksimal sepanjang hari. Motif geometris Daun Talas ditempatkan pada panel samping vertikal untuk ilusi visual proporsi kaki lebih jenjang.',
+    description: 'Celana wide-leg bersiluet longgar yang memberikan kenyamanan maksimal sepanjang hari. Dilengkapi detail lipatan ujung celana serta aksen motif Daun Talas artistik di bagian bawah kaki untuk sentuhan gaya modern yang memikat.',
     images: [
       'assets/celana-biru.jpg',
       'assets/celana-hijau.jpg'
@@ -172,12 +172,12 @@ export const PRODUCTS = [
     isBestSeller: true,
     description: 'Pouch serbaguna untuk kabel gadget, kosmetik, atau perlengkapan harian. Dibuat dari perca kain batik katun organik berkualitas tinggi dengan ritsleting YKK ramah lingkungan.',
     images: [
-      'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80'
+      'assets/pouch-hijau.jpg',
+      'assets/pouch-biru.jpg'
     ],
     colors: [
-      { name: 'Indigo Leaf Mosaic', hex: '#1E2050', selected: true },
-      { name: 'Sky Spirulina Tone', hex: '#4A6FA5', selected: false }
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
     sizes: ['One Size (22x15x6cm)'],
     stock: { 'One Size (22x15x6cm)': 60 },
@@ -193,37 +193,37 @@ export const PRODUCTS = [
   },
   {
     id: 'talas-06',
-    name: 'Bandana & Scarf Eco-Spirulina',
-    subtitle: 'Versatile Styling • Neck Scarf / Headband / Bag Accent',
+    name: 'Bros Motif Batik Talas',
+    subtitle: 'Aksesori Elegan • Full Motif Talas Bogor',
     category: 'Aksesori (Bros/Bandana/Dasi)',
-    price: 69000,
-    originalPrice: 89000,
+    price: 49000,
+    originalPrice: 69000,
     rating: 4.9,
     reviewsCount: 64,
-    badge: 'Hand-Rolled Hem',
-    secondaryBadge: 'Gen Z Accent',
+    badge: 'Handcrafted',
+    secondaryBadge: 'Batik Accent',
     isNew: true,
     isBestSeller: false,
-    description: 'Bandana multifungsi dengan tepian kelim tangan halus (hand-rolled hem). Dapat diikat sebagai bandana rambut, syal leher streetwear, atau aksen pemanis pada handle tas tote.',
+    description: 'Bros elegan berukuran 8x8 cm dengan motif batik Daun Talas khas Bogor. Dibuat dengan detail presisi, cocok disematkan pada hijab, blazer, atau pakaian kasual untuk menambah sentuhan budaya lokal yang modern.',
     images: [
-      'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=900&q=80'
+      'assets/bros-hijau.jpg',
+      'assets/bros-biru.jpg'
     ],
     colors: [
-      { name: 'Spirulina Indigo Duo', hex: '#1E2050', selected: true },
-      { name: 'Ocean Mist Blue', hex: '#6384B8', selected: false }
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
-    sizes: ['55 x 55 cm'],
-    stock: { '55 x 55 cm': 30 },
-    tags: ['Bandana', 'Scarf', 'Aksesori', 'Streetwear', 'Hijab Friendly'],
+    sizes: ['8x8 cm'],
+    stock: { '8x8 cm': 30 },
+    tags: ['Bros', 'Aksesori', 'Batik', 'Hijab Friendly'],
     ecoImpact: {
       waterSavedLiters: 18,
       toxicChemicalEliminatedGrams: 95,
       microplastic: '0% Poliester'
     },
-    materials: '100% Katun Sutra Organik (Sangat Lembut & Ringan), Pewarna Alami Spirulina.',
-    artisanStory: 'Setiap helai bandana diikat dan dicelup secara individu (shibori-batik hybrid) oleh pengrajin muda Cibuluh.',
-    careInstructions: ['Cuci tangan lembut dengan air dingin dan sampo bayi.']
+    materials: 'Logam ramah lingkungan dengan lapisan enamel pewarna alami, dikerjakan tanpa bahan kimia beracun.',
+    artisanStory: 'Dicetak dan dilukis secara manual oleh pengrajin aksesoris lokal di Cibuluh.',
+    careInstructions: ['Bersihkan dengan kain microfiber kering, hindari parfum langsung.']
   },
   {
     id: 'talas-07',
@@ -240,11 +240,12 @@ export const PRODUCTS = [
     isBestSeller: false,
     description: 'Dasi siluet slim 6cm dengan motif mikro Daun Talas Bogor bernuansa deep indigo. Memberikan sentuhan elegan yang subtil untuk presentasi profesional maupun outfit streetwear blazer.',
     images: [
-      'https://images.unsplash.com/photo-1589756823695-278bc923f962?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=900&q=80'
+      'assets/dasi-hijau.jpg',
+      'assets/dasi-biru.jpg'
     ],
     colors: [
-      { name: 'Deep Midnight Indigo', hex: '#1E2050', selected: true }
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
     sizes: ['Standard Slim (148 x 6 cm)'],
     stock: { 'Standard Slim (148 x 6 cm)': 18 },
@@ -260,8 +261,8 @@ export const PRODUCTS = [
   },
   {
     id: 'talas-08',
-    name: 'Rok Lilit Asimetris Spirulina Flow',
-    subtitle: 'Adjustable Wrap Skirt • Tali Pengikat Praktis',
+    name: 'Rok Batik Talas Full Print',
+    subtitle: 'Rok Batik Modern • Full Motif Talas Bogor',
     category: 'Bawahan (Rok/Celana)',
     price: 279000,
     originalPrice: 339000,
@@ -271,14 +272,14 @@ export const PRODUCTS = [
     secondaryBadge: 'Favorit Gen Z',
     isNew: true,
     isBestSeller: true,
-    description: 'Rok lilit modern instan dengan sistem kancing dan tali pengikat tersembunyi yang memudahkan pemakaian tanpa peniti. Jatuhan kain flowy memberikan siluet anggun sekaligus kekinian.',
+    description: 'Rok dengan motif full print batik Daun Talas khas Bogor yang elegan. Didesain dengan potongan modern yang flowy, memberikan siluet anggun dan nyaman digunakan untuk berbagai aktivitas keseharian maupun acara formal.',
     images: [
-      'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80'
+      'assets/rok-hijau.jpg',
+      'assets/rok-biru.jpg'
     ],
     colors: [
-      { name: 'Spirulina Deep Indigo', hex: '#1E2050', selected: true },
-      { name: 'Natural Mineral Blue', hex: '#4A6FA5', selected: false }
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
     sizes: ['All Size (Fit S to XL)'],
     stock: { 'All Size (Fit S to XL)': 20 },
@@ -291,6 +292,142 @@ export const PRODUCTS = [
     materials: 'Katun Rayon Organik Biodegradable bersertifikasi ramah lingkungan, Pewarna Alami Spirulina.',
     artisanStory: 'Motif batik cap motif Daun Talas Bogor dikerjakan manual cap tembaga oleh pengrajin Dwika Lestari.',
     careInstructions: ['Cuci tangan lembut, keringkan di tempat teduh, setrika dengan uap sedang.']
+  },
+  {
+    id: 'talas-09',
+    name: 'Celana Wide Leg Motif Talas Full Print',
+    subtitle: 'Streetwear Pants • Full Motif Talas Bogor',
+    category: 'Bawahan (Rok/Celana)',
+    price: 299000,
+    originalPrice: 359000,
+    rating: 4.8,
+    reviewsCount: 45,
+    badge: 'Spirulina Blue',
+    secondaryBadge: 'Unisex Fit',
+    isNew: true,
+    isBestSeller: false,
+    description: 'Celana wide-leg bersiluet longgar yang memberikan kenyamanan maksimal sepanjang hari. Dilengkapi motif full print Daun Talas artistik di seluruh bagian celana untuk sentuhan gaya modern yang memikat.',
+    images: [
+      'assets/celana-hijau-2.jpg',
+      'assets/celana-biru-2.jpg'
+    ],
+    colors: [
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
+    ],
+    sizes: ['S', 'M', 'L', 'XL'],
+    stock: { 'S': 5, 'M': 12, 'L': 15, 'XL': 8 },
+    tags: ['Celana', 'Bawahan', 'Batik Pria', 'Streetwear', 'Batik Wanita'],
+    ecoImpact: {
+      waterSavedLiters: 55,
+      toxicChemicalEliminatedGrams: 350,
+      microplastic: '0% Poliester'
+    },
+    materials: '100% Linen Rami Organik bersertifikasi OEKO-TEX, Pewarna Alami Mikroalga Spirulina ramah ekosistem air.',
+    artisanStory: 'Proses celup rintang dan cap motif Daun Talas dikerjakan dengan hati oleh pengrajin lokal Desa Cibuluh, Bogor.',
+    careInstructions: ['Cuci tangan dengan lerak', 'Hindari sinar matahari langsung', 'Setrika suhu sedang']
+  },
+  {
+    id: 'talas-10',
+    name: 'Tote Bag Reusable Batik talas Full Print',
+    subtitle: 'Eco-Friendly Canvas • Motif Talas Bogor',
+    category: 'Tas & Aksesori',
+    price: 99000,
+    originalPrice: 129000,
+    rating: 4.9,
+    reviewsCount: 112,
+    badge: 'Eco-Friendly',
+    secondaryBadge: 'Spirulina Dye',
+    isNew: true,
+    isBestSeller: true,
+    description: 'Tote bag kanvas tebal ramah lingkungan dengan motif full print batik Daun Talas Bogor. Desain stylish dan ruang luas menjadikannya tas andalan untuk gaya kasual sehari-hari sambil mendukung kampanye pengurangan plastik.',
+    images: [
+      'assets/totebag-hijau-2.jpg',
+      'assets/totebag-biru-2.jpg'
+    ],
+    colors: [
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
+    ],
+    sizes: ['One Size (40x35x10 cm)'],
+    stock: { 'One Size (40x35x10 cm)': 45 },
+    tags: ['Tote Bag', 'Tas', 'Aksesori', 'Batik Kanvas', 'Eco-Friendly'],
+    ecoImpact: {
+      waterSavedLiters: 15,
+      toxicChemicalEliminatedGrams: 80,
+      microplastic: '100% Cotton Canvas'
+    },
+    materials: 'Kanvas Katun Organik Tebal (12oz), Pewarna Alami Spirulina, Tali Webbing Katun Kuat.',
+    artisanStory: 'Dijahit kuat oleh pengrajin tas lokal dengan teknik stik balik yang tahan beban berat, serta dicap batik manual.',
+    careInstructions: ['Cuci tangan lembut spot clean', 'Gunakan sabun alami (lerak)', 'Jemur teduh']
+  },
+  {
+    id: 'talas-11',
+    name: 'Rok Motif Talas Modern',
+    subtitle: 'Modern Skirt • Motif Talas Bogor',
+    category: 'Bawahan (Rok/Celana)',
+    price: 279000,
+    originalPrice: 339000,
+    rating: 4.8,
+    reviewsCount: 45,
+    badge: 'Artisan Crafted',
+    secondaryBadge: 'Eco-Friendly',
+    isNew: true,
+    isBestSeller: false,
+    description: 'Rok dengan desain modern yang menampilkan motif Batik Daun Talas eksklusif. Nyaman dipakai dengan potongan elegan yang membuat penampilan kasual maupun formal semakin menawan.',
+    images: [
+      'assets/rok-hijau-2.jpg',
+      'assets/rok-biru-2.jpg'
+    ],
+    colors: [
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
+    ],
+    sizes: ['S', 'M', 'L', 'XL'],
+    stock: { 'M': 10, 'L': 15 },
+    tags: ['Rok', 'Bawahan', 'Batik Wanita', 'Modern'],
+    ecoImpact: {
+      waterSavedLiters: 40,
+      toxicChemicalEliminatedGrams: 200,
+      microplastic: '0% Poliester'
+    },
+    materials: 'Katun Rayon Organik 100%, Pewarna Alami.',
+    artisanStory: 'Dibuat dengan teknik cap tradisional oleh pengrajin lokal berbakat.',
+    careInstructions: ['Cuci lembut dengan tangan', 'Jemur di tempat teduh']
+  },
+  {
+    id: 'talas-12',
+    name: 'Kipas Lipat Batik Talas',
+    subtitle: 'Handheld Wooden Fan • Motif Talas Bogor',
+    category: 'Souvenir (Tote Bag/Pouch/Kipas)',
+    price: 49000,
+    originalPrice: 69000,
+    rating: 4.9,
+    reviewsCount: 120,
+    badge: 'Zero Waste',
+    secondaryBadge: 'Souvenir Favorit',
+    isNew: true,
+    isBestSeller: true,
+    description: 'Kipas lipat elegan dengan ukiran bambu ringan dan kain batik motif Daun Talas dari sisa perca. Sempurna sebagai pelengkap gaya tropis atau suvenir cantik yang ramah lingkungan.',
+    images: [
+      'assets/kipas-hijau.jpg',
+      'assets/kipas-biru.jpg'
+    ],
+    colors: [
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
+    ],
+    sizes: ['One Size'],
+    stock: { 'One Size': 100 },
+    tags: ['Kipas', 'Souvenir', 'Aksesori', 'Batik'],
+    ecoImpact: {
+      waterSavedLiters: 5,
+      toxicChemicalEliminatedGrams: 20,
+      microplastic: '100% Organik'
+    },
+    materials: 'Rangka Bambu Alami, Kain Perca Katun Organik.',
+    artisanStory: 'Dikerjakan oleh pengrajin bambu lokal dan menggunakan kain sisa produksi untuk misi zero-waste.',
+    careInstructions: ['Simpan di tempat kering', 'Lap dengan kain bersih']
   }
 ];
 
@@ -300,7 +437,8 @@ export const CATEGORIES = [
   'Blouse & Dress',
   'Bawahan (Rok/Celana)',
   'Aksesori (Bros/Bandana/Dasi)',
-  'Souvenir (Tote Bag/Pouch/Kipas)'
+  'Souvenir (Tote Bag/Pouch/Kipas)',
+  'Tas & Aksesori'
 ];
 
 export const LOOKBOOK_ITEMS = [

@@ -52,8 +52,8 @@ const PRODUCTS = [
     name: 'Blouse Loose-Fit Spirulina Bogor',
     subtitle: 'Relaxed Daily Wear • Siluet Drop-Shoulder',
     category: 'Blouse & Dress',
-    price: 259000,
-    originalPrice: 319000,
+    price: 289000,
+    originalPrice: 349000,
     rating: 4.8,
     reviewsCount: 98,
     badge: 'Organic Cotton',
@@ -98,7 +98,7 @@ const PRODUCTS = [
     secondaryBadge: 'Unisex Fit',
     isNew: false,
     isBestSeller: true,
-    description: 'Celana wide-leg siluet longgar yang memberikan kenyamanan maksimal sepanjang hari. Motif geometris Daun Talas ditempatkan pada panel samping vertikal untuk ilusi visual proporsi kaki lebih jenjang.',
+    description: 'Celana wide-leg bersiluet longgar yang memberikan kenyamanan maksimal sepanjang hari. Dilengkapi detail lipatan ujung celana serta aksen motif Daun Talas artistik di bagian bawah kaki untuk sentuhan gaya modern yang memikat.',
     images: [
       'assets/celana-biru.jpg',
       'assets/celana-hijau.jpg'
@@ -128,8 +128,8 @@ const PRODUCTS = [
     name: 'Tote Bag Reusable Batik Talas',
     subtitle: 'Heavy-Duty 14oz Organic Canvas • Zero Waste',
     category: 'Souvenir (Tote Bag/Pouch/Kipas)',
-    price: 99000,
-    originalPrice: 129000,
+    price: 149000,
+    originalPrice: 200000,
     rating: 5.0,
     reviewsCount: 215,
     badge: 'Zero Plastic',
@@ -162,25 +162,25 @@ const PRODUCTS = [
   },
   {
     id: 'talas-05',
-    name: 'Pouch Souvenir Batik Spirulina',
+    name: 'Pouch Souvenir Batik Talas',
     subtitle: 'Multi-Purpose Organizer • Upcycled Fabric',
     category: 'Souvenir (Tote Bag/Pouch/Kipas)',
-    price: 49000,
-    originalPrice: 65000,
+    price: 149000,
+    originalPrice: 200000,
     rating: 4.8,
     reviewsCount: 178,
     badge: 'Upcycled Fabric',
     secondaryBadge: 'Upsell Favorit 🎁',
     isNew: false,
     isBestSeller: true,
-    description: 'Pouch serbaguna untuk kabel gadget, kosmetik, atau perlengkapan harian. Dibuat dari perca kain batik katun organik berkualitas tinggi dengan ritsleting YKK ramah lingkungan.',
+    description: 'Pouch elegan dari TALASWARA yang memadukan motif botani daun talas bernuansa hijau zaitun dengan sentuhan etnik modern. Dilengkapi ritsleting beraksen gantungan bunga serta tali pergelangan (wristlet) senada, pouch praktis ini sempurna untuk menyimpan ponsel, kosmetik, atau perlengkapan esensial harian dengan gaya yang rapi dan berkelas.',
     images: [
-      'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80'
+      'assets/pouch-hijau.jpg',
+      'assets/pouch-biru.jpg'
     ],
     colors: [
-      { name: 'Indigo Leaf Mosaic', hex: '#1E2050', selected: true },
-      { name: 'Sky Spirulina Tone', hex: '#4A6FA5', selected: false }
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
     sizes: ['One Size'],
     stock: { 'One Size': 60 },
@@ -196,37 +196,37 @@ const PRODUCTS = [
   },
   {
     id: 'talas-06',
-    name: 'Bandana & Scarf Eco-Spirulina',
-    subtitle: 'Versatile Styling • Hand-Rolled Hem',
+    name: 'Bros Motif Batik Talas',
+    subtitle: 'Aksesori Elegan • Full Motif Talas Bogor',
     category: 'Aksesori (Bros/Bandana/Dasi)',
-    price: 69000,
-    originalPrice: 89000,
+    price: 49000,
+    originalPrice: 69000,
     rating: 4.9,
     reviewsCount: 64,
-    badge: 'Hand-Rolled Hem',
-    secondaryBadge: 'Gen Z Accent',
+    badge: 'Handcrafted',
+    secondaryBadge: 'Batik Accent',
     isNew: true,
     isBestSeller: false,
-    description: 'Bandana multifungsi dengan tepian kelim tangan halus. Dapat diikat sebagai bandana rambut, syal leher streetwear, atau aksen pemanis pada handle tas tote.',
+    description: 'Bros elegan berukuran 8x8 cm dengan motif batik Daun Talas khas Bogor. Dibuat dengan detail presisi, cocok disematkan pada hijab, blazer, atau pakaian kasual untuk menambah sentuhan budaya lokal yang modern.',
     images: [
-      'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=900&q=80'
+      'assets/bros-hijau.jpg',
+      'assets/bros-biru.jpg'
     ],
     colors: [
-      { name: 'Spirulina Indigo Duo', hex: '#1E2050', selected: true },
-      { name: 'Ocean Mist Blue', hex: '#6384B8', selected: false }
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
-    sizes: ['55x55 cm'],
-    stock: { '55x55 cm': 30 },
-    tags: ['Bandana', 'Scarf', 'Aksesori', 'Streetwear', 'Hijab Friendly'],
+    sizes: ['8x8 cm'],
+    stock: { '8x8 cm': 30 },
+    tags: ['Bros', 'Aksesori', 'Batik', 'Hijab Friendly'],
     ecoImpact: {
       waterSavedLiters: 18,
       toxicChemicalEliminatedGrams: 95,
       microplastic: '0% Poliester'
     },
-    materials: '100% Katun Sutra Organik (Sangat Lembut & Ringan), Pewarna Alami Spirulina.',
-    artisanStory: 'Setiap helai bandana diikat dan dicelup secara individu (shibori-batik hybrid) oleh pengrajin muda Cibuluh.',
-    careInstructions: ['Cuci tangan lembut dengan air dingin dan sampo bayi.']
+    materials: 'Logam ramah lingkungan dengan lapisan enamel pewarna alami, dikerjakan tanpa bahan kimia beracun.',
+    artisanStory: 'Dicetak dan dilukis secara manual oleh pengrajin aksesoris lokal di Cibuluh.',
+    careInstructions: ['Bersihkan dengan kain microfiber kering, hindari parfum langsung.']
   },
   {
     id: 'talas-07',
@@ -241,13 +241,14 @@ const PRODUCTS = [
     secondaryBadge: 'Eco Dapper',
     isNew: false,
     isBestSeller: false,
-    description: 'Dasi siluet slim 6cm dengan motif mikro Daun Talas Bogor bernuansa deep indigo. Memberikan sentuhan elegan yang subtil untuk presentasi profesional maupun outfit streetwear blazer.',
+    description: 'Dasi siluet slim 6cm dengan motif Daun Talas Bogor. Memberikan sentuhan elegan yang subtil untuk presentasi profesional maupun outfit streetwear blazer.',
     images: [
-      'https://images.unsplash.com/photo-1589756823695-278bc923f962?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=900&q=80'
+      'assets/dasi-hijau.jpg',
+      'assets/dasi-biru.jpg'
     ],
     colors: [
-      { name: 'Deep Midnight Indigo', hex: '#1E2050', selected: true }
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
     sizes: ['Standard Slim (6cm)'],
     stock: { 'Standard Slim (6cm)': 18 },
@@ -263,8 +264,8 @@ const PRODUCTS = [
   },
   {
     id: 'talas-08',
-    name: 'Rok Lilit Asimetris Spirulina Flow',
-    subtitle: 'Adjustable Wrap Skirt • Tali Pengikat Praktis',
+    name: 'Rok Batik Talas Full Print',
+    subtitle: 'Rok Batik Modern • Full Motif Talas Bogor',
     category: 'Bawahan (Rok/Celana)',
     price: 279000,
     originalPrice: 339000,
@@ -274,14 +275,14 @@ const PRODUCTS = [
     secondaryBadge: 'Favorit Gen Z',
     isNew: true,
     isBestSeller: true,
-    description: 'Rok lilit modern instan dengan sistem kancing dan tali pengikat tersembunyi yang memudahkan pemakaian tanpa peniti. Jatuhan kain flowy memberikan siluet anggun sekaligus kekinian.',
+    description: 'Rok dengan motif full print batik Daun Talas khas Bogor yang elegan. Didesain dengan potongan modern yang flowy, memberikan siluet anggun dan nyaman digunakan untuk berbagai aktivitas keseharian maupun acara formal.',
     images: [
-      'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80'
+      'assets/rok-hijau.jpg',
+      'assets/rok-biru.jpg'
     ],
     colors: [
-      { name: 'Spirulina Deep Indigo', hex: '#1E2050', selected: true },
-      { name: 'Natural Mineral Blue', hex: '#4A6FA5', selected: false }
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
     ],
     sizes: ['All Size (Fit S-XL)'],
     stock: { 'All Size (Fit S-XL)': 20 },
@@ -294,6 +295,142 @@ const PRODUCTS = [
     materials: 'Katun Rayon Organik Biodegradable bersertifikasi ramah lingkungan, Pewarna Alami Spirulina.',
     artisanStory: 'Motif batik cap motif Daun Talas Bogor dikerjakan manual cap tembaga oleh pengrajin Dwika Lestari.',
     careInstructions: ['Cuci tangan lembut, keringkan di tempat teduh, setrika dengan uap sedang.']
+  },
+  {
+    id: 'talas-09',
+    name: 'Celana Wide Leg Motif Talas Full Print',
+    subtitle: 'Streetwear Pants • Full Motif Talas Bogor',
+    category: 'Bawahan (Rok/Celana)',
+    price: 299000,
+    originalPrice: 359000,
+    rating: 4.8,
+    reviewsCount: 45,
+    badge: 'Spirulina Blue',
+    secondaryBadge: 'Unisex Fit',
+    isNew: true,
+    isBestSeller: false,
+    description: 'Celana wide-leg bersiluet longgar yang memberikan kenyamanan maksimal sepanjang hari. Dilengkapi motif full print Daun Talas artistik di seluruh bagian celana untuk sentuhan gaya modern yang memikat.',
+    images: [
+      'assets/celana-hijau-2.jpg',
+      'assets/celana-biru-2.jpg'
+    ],
+    colors: [
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
+    ],
+    sizes: ['S', 'M', 'L', 'XL'],
+    stock: { 'S': 5, 'M': 12, 'L': 15, 'XL': 8 },
+    tags: ['Celana', 'Bawahan', 'Batik Pria', 'Streetwear', 'Batik Wanita'],
+    ecoImpact: {
+      waterSavedLiters: 55,
+      toxicChemicalEliminatedGrams: 350,
+      microplastic: '0% Poliester'
+    },
+    materials: '100% Linen Rami Organik bersertifikasi OEKO-TEX, Pewarna Alami Mikroalga Spirulina ramah ekosistem air.',
+    artisanStory: 'Proses celup rintang dan cap motif Daun Talas dikerjakan dengan hati oleh pengrajin lokal Desa Cibuluh, Bogor.',
+    careInstructions: ['Cuci tangan dengan lerak', 'Hindari sinar matahari langsung', 'Setrika suhu sedang']
+  },
+  {
+    id: 'talas-10',
+    name: 'Tote Bag Reusable Batik talas Full Print',
+    subtitle: 'Eco-Friendly Canvas • Motif Talas Bogor',
+    category: 'Tas & Aksesori',
+    price: 149000,
+    originalPrice: 200000,
+    rating: 4.9,
+    reviewsCount: 112,
+    badge: 'Eco-Friendly',
+    secondaryBadge: 'Spirulina Dye',
+    isNew: true,
+    isBestSeller: true,
+    description: 'Tote bag kanvas tebal ramah lingkungan dengan motif full print batik Daun Talas Bogor. Desain stylish dan ruang luas menjadikannya tas andalan untuk gaya kasual sehari-hari sambil mendukung kampanye pengurangan plastik.',
+    images: [
+      'assets/totebag-hijau-2.jpg',
+      'assets/totebag-biru-2.jpg'
+    ],
+    colors: [
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
+    ],
+    sizes: ['One Size (40x35x10 cm)'],
+    stock: { 'One Size (40x35x10 cm)': 45 },
+    tags: ['Tote Bag', 'Tas', 'Aksesori', 'Batik Kanvas', 'Eco-Friendly'],
+    ecoImpact: {
+      waterSavedLiters: 15,
+      toxicChemicalEliminatedGrams: 80,
+      microplastic: '100% Cotton Canvas'
+    },
+    materials: 'Kanvas Katun Organik Tebal (12oz), Pewarna Alami Spirulina, Tali Webbing Katun Kuat.',
+    artisanStory: 'Dijahit kuat oleh pengrajin tas lokal dengan teknik stik balik yang tahan beban berat, serta dicap batik manual.',
+    careInstructions: ['Cuci tangan lembut spot clean', 'Gunakan sabun alami (lerak)', 'Jemur teduh']
+  },
+  {
+    id: 'talas-11',
+    name: 'Rok Motif Talas Modern',
+    subtitle: 'Modern Skirt • Motif Talas Bogor',
+    category: 'Bawahan (Rok/Celana)',
+    price: 279000,
+    originalPrice: 339000,
+    rating: 4.8,
+    reviewsCount: 45,
+    badge: 'Artisan Crafted',
+    secondaryBadge: 'Eco-Friendly',
+    isNew: true,
+    isBestSeller: false,
+    description: 'Rok dengan desain modern yang menampilkan motif Batik Daun Talas eksklusif. Nyaman dipakai dengan potongan elegan yang membuat penampilan kasual maupun formal semakin menawan.',
+    images: [
+      'assets/rok-hijau-2.jpg',
+      'assets/rok-biru-2.jpg'
+    ],
+    colors: [
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
+    ],
+    sizes: ['S', 'M', 'L', 'XL'],
+    stock: { 'M': 10, 'L': 15 },
+    tags: ['Rok', 'Bawahan', 'Batik Wanita', 'Modern'],
+    ecoImpact: {
+      waterSavedLiters: 40,
+      toxicChemicalEliminatedGrams: 200,
+      microplastic: '0% Poliester'
+    },
+    materials: 'Katun Rayon Organik 100%, Pewarna Alami.',
+    artisanStory: 'Dibuat dengan teknik cap tradisional oleh pengrajin lokal berbakat.',
+    careInstructions: ['Cuci lembut dengan tangan', 'Jemur di tempat teduh']
+  },
+  {
+    id: 'talas-12',
+    name: 'Kipas Lipat Batik Talas',
+    subtitle: 'Handheld Wooden Fan • Motif Talas Bogor',
+    category: 'Souvenir (Tote Bag/Pouch/Kipas)',
+    price: 49000,
+    originalPrice: 69000,
+    rating: 4.9,
+    reviewsCount: 120,
+    badge: 'Zero Waste',
+    secondaryBadge: 'Souvenir Favorit',
+    isNew: true,
+    isBestSeller: true,
+    description: 'Kipas lipat elegan dengan ukiran bambu ringan dan kain batik motif Daun Talas dari sisa perca. Sempurna sebagai pelengkap gaya tropis atau suvenir cantik yang ramah lingkungan.',
+    images: [
+      'assets/kipas-hijau.jpg',
+      'assets/kipas-biru.jpg'
+    ],
+    colors: [
+      { name: 'Hijau Natural', hex: '#556B2F', selected: true },
+      { name: 'Biru Spirulina', hex: '#1E2050', selected: false }
+    ],
+    sizes: ['One Size'],
+    stock: { 'One Size': 100 },
+    tags: ['Kipas', 'Souvenir', 'Aksesori', 'Batik'],
+    ecoImpact: {
+      waterSavedLiters: 5,
+      toxicChemicalEliminatedGrams: 20,
+      microplastic: '100% Organik'
+    },
+    materials: 'Rangka Bambu Alami, Kain Perca Katun Organik.',
+    artisanStory: 'Dikerjakan oleh pengrajin bambu lokal dan menggunakan kain sisa produksi untuk misi zero-waste.',
+    careInstructions: ['Simpan di tempat kering', 'Lap dengan kain bersih']
   }
 ];
 
@@ -325,7 +462,7 @@ const LOOKBOOK_ITEMS = [
         id: 'hs-3',
         productId: 'talas-04',
         name: 'Tote Bag Reusable Batik',
-        price: 99000,
+        price: 149000,
         x: 10,
         y: 45
       }
@@ -333,34 +470,34 @@ const LOOKBOOK_ITEMS = [
   },
   {
     id: 'look-02',
-    title: 'Cibuluh Heritage Café Flow',
+    title: 'Casual Elegant',
     vibe: 'Relaxed Daily Elegance / Botanical Hue',
-    modelPhoto: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=85',
-    description: 'Blouse berpotongan rileks dipadukan dengan bandana aksen leher dan rok lilit asimetris untuk hangout akhir pekan.',
+    modelPhoto: 'assets/look-2.jpg',
+    description: 'Blouse berpotongan rileks dipadukan dengan rok Motif Talas Modern dan pouch estetik untuk outfit elegan ke kampus.',
     hotspots: [
       {
         id: 'hs-4',
         productId: 'talas-02',
         name: 'Blouse Loose-Fit Spirulina Bogor',
-        price: 259000,
-        x: 50,
-        y: 38
+        price: 289000,
+        x: 10,
+        y: 15
       },
       {
         id: 'hs-5',
-        productId: 'talas-06',
-        name: 'Bandana & Scarf Eco-Spirulina',
-        price: 69000,
-        x: 46,
-        y: 20
+        productId: 'talas-05',
+        name: 'Pouch Batik Talas',
+        price: 149000,
+        x: 10,
+        y: 30
       },
       {
         id: 'hs-6',
-        productId: 'talas-08',
-        name: 'Rok Lilit Asimetris Spirulina Flow',
+        productId: 'talas-11',
+        name: 'Rok Motif Talas Modern',
         price: 279000,
-        x: 53,
-        y: 72
+        x: 10,
+        y: 45
       }
     ]
   }
@@ -407,12 +544,11 @@ function showToast(message, icon = 'check-circle') {
   if (!toastContainer) return;
 
   const toast = document.createElement('div');
-  toast.className = `flex items-center gap-3 px-4 py-3 rounded-xl shadow-2xl text-sm font-semibold transition-all duration-300 transform translate-y-4 opacity-0 pointer-events-auto ${
-    State.isDark 
-      ? 'bg-[#282A60] text-white border border-white/20' 
-      : 'bg-[#1E2050] text-white shadow-indigo-950/20'
-  }`;
-  
+  toast.className = `flex items-center gap-3 px-4 py-3 rounded-xl shadow-2xl text-sm font-semibold transition-all duration-300 transform translate-y-4 opacity-0 pointer-events-auto ${State.isDark
+    ? 'bg-[#282A60] text-white border border-white/20'
+    : 'bg-[#1E2050] text-white shadow-indigo-950/20'
+    }`;
+
   toast.innerHTML = `
     <i data-lucide="${icon}" class="w-5 h-5 text-emerald-400 flex-shrink-0"></i>
     <span>${message}</span>
@@ -534,7 +670,7 @@ function addToCart(productId, size = null, color = null, quantity = 1) {
   saveCart();
   updateCartCounters();
   renderCartDrawer();
-  
+
   // Animation on cart button
   const cartButtons = document.querySelectorAll('.cart-trigger-btn');
   cartButtons.forEach(btn => {
@@ -632,7 +768,7 @@ function updateWishlistCounters() {
 
 function filterCategory(categoryName) {
   State.activeCategory = categoryName;
-  
+
   // Update filter pills UI
   const pills = document.querySelectorAll('.category-filter-pill');
   pills.forEach(pill => {
@@ -704,11 +840,10 @@ function renderProducts() {
             type="button"
             onclick="event.stopPropagation(); toggleWishlist('${product.id}')"
             aria-label="Wishlist"
-            class="absolute top-3 right-3 w-9 h-9 rounded-full flex items-center justify-center backdrop-blur-md transition-all duration-200 z-10 ${
-              isWishlisted 
-                ? 'bg-rose-500 text-white shadow-md' 
-                : 'bg-white/80 text-[#1E2050] hover:bg-white dark:bg-[#1E2050]/80 dark:text-white dark:hover:bg-[#1E2050]'
-            }"
+            class="absolute top-3 right-3 w-9 h-9 rounded-full flex items-center justify-center backdrop-blur-md transition-all duration-200 z-10 ${isWishlisted
+        ? 'bg-rose-500 text-white shadow-md'
+        : 'bg-white/80 text-[#1E2050] hover:bg-white dark:bg-[#1E2050]/80 dark:text-white dark:hover:bg-[#1E2050]'
+      }"
           >
             <i data-lucide="heart" class="w-4 h-4 ${isWishlisted ? 'fill-current' : ''}"></i>
           </button>
@@ -815,10 +950,10 @@ function renderLookbook() {
 
         <!-- Clickable Hotspots -->
         ${currentLook.hotspots.map(hs => {
-          const product = PRODUCTS.find(p => p.id === hs.productId);
-          const isActive = State.activeHotspot === hs.id;
+    const product = PRODUCTS.find(p => p.id === hs.productId);
+    const isActive = State.activeHotspot === hs.id;
 
-          return `
+    return `
             <div 
               class="absolute z-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer group"
               style="left: ${hs.x}%; top: ${hs.y}%;"
@@ -830,7 +965,7 @@ function renderLookbook() {
               </div>
 
               <!-- Hotspot Popover Card -->
-              <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-56 md:w-64 p-3.5 rounded-2xl bg-white/95 text-[#1E2050] dark:bg-[#1E2050]/95 dark:text-white backdrop-blur-md shadow-2xl border border-white/30 dark:border-white/20 transition-all duration-300 z-30 ${isActive ? 'opacity-100 pointer-events-auto scale-100' : 'opacity-0 pointer-events-none scale-95'}">
+              <div class="absolute left-full top-1/2 -translate-y-1/2 ml-3 w-56 md:w-64 p-3.5 rounded-2xl bg-white/95 text-[#1E2050] dark:bg-[#1E2050]/95 dark:text-white backdrop-blur-md shadow-2xl border border-white/30 dark:border-white/20 transition-all duration-300 z-30 ${isActive ? 'opacity-100 pointer-events-auto scale-100' : 'opacity-0 pointer-events-none scale-95'}">
                 <div class="flex items-center gap-3">
                   <img src="${product?.images[0]}" class="w-12 h-16 rounded-lg object-cover flex-shrink-0" />
                   <div class="flex-grow min-w-0">
@@ -855,11 +990,11 @@ function renderLookbook() {
                   </div>
                 </div>
                 <!-- Triangle Pointer -->
-                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-white/95 dark:bg-[#1E2050]/95 rotate-45 border-b border-r border-white/20"></div>
+                <div class="absolute -left-1.5 top-1/2 -translate-y-1/2 w-3 h-3 bg-white/95 dark:bg-[#1E2050]/95 rotate-45 border-b border-l border-white/20"></div>
               </div>
             </div>
           `;
-        }).join('')}
+  }).join('')}
 
         <!-- Lookbook Editorial Details (Bottom Overlay) -->
         <div class="absolute bottom-6 left-6 right-6 flex flex-col md:flex-row md:items-end justify-between gap-4 text-white z-10">
@@ -890,11 +1025,10 @@ function renderLookbook() {
             <button 
               type="button"
               onclick="switchLookbook(${idx})"
-              class="px-3 py-1.5 rounded-full text-xs font-bold transition-all ${
-                idx === State.activeLookbookIndex 
-                  ? 'bg-white text-[#1E2050] shadow-md' 
-                  : 'bg-black/40 text-white backdrop-blur-md hover:bg-black/60'
-              }"
+              class="px-3 py-1.5 rounded-full text-xs font-bold transition-all ${idx === State.activeLookbookIndex
+      ? 'bg-white text-[#1E2050] shadow-md'
+      : 'bg-black/40 text-white backdrop-blur-md hover:bg-black/60'
+    }"
             >
               Look 0${idx + 1}
             </button>
@@ -971,7 +1105,7 @@ function openCartDrawer() {
 
   backdrop.classList.remove('pointer-events-none', 'opacity-0');
   backdrop.classList.add('pointer-events-auto', 'opacity-100');
-  
+
   drawer.classList.remove('translate-x-full');
   drawer.classList.add('translate-x-0');
   document.body.classList.add('overflow-hidden');
@@ -1197,11 +1331,10 @@ function renderProductModal() {
             <button 
               type="button" 
               onclick="setModalImageIndex(${idx})"
-              class="w-16 h-20 rounded-xl overflow-hidden flex-shrink-0 border-2 transition-all ${
-                idx === State.activeModalImageIndex 
-                  ? 'border-[#1E2050] dark:border-white scale-105 shadow-md' 
-                  : 'border-transparent opacity-60 hover:opacity-100'
-              }"
+              class="w-16 h-20 rounded-xl overflow-hidden flex-shrink-0 border-2 transition-all ${idx === State.activeModalImageIndex
+      ? 'border-[#1E2050] dark:border-white scale-105 shadow-md'
+      : 'border-transparent opacity-60 hover:opacity-100'
+    }"
             >
               <img src="${img}" class="w-full h-full object-cover" />
             </button>
@@ -1260,11 +1393,10 @@ function renderProductModal() {
                 <button 
                   type="button" 
                   onclick="setModalColorIndex(${idx})"
-                  class="relative w-8 h-8 rounded-full border-2 transition-all ${
-                    idx === State.selectedColorInModal 
-                      ? 'ring-2 ring-offset-2 ring-[#1E2050] dark:ring-white scale-110' 
-                      : 'border-black/20 dark:border-white/20'
-                  }"
+                  class="relative w-8 h-8 rounded-full border-2 transition-all ${idx === State.selectedColorInModal
+        ? 'ring-2 ring-offset-2 ring-[#1E2050] dark:ring-white scale-110'
+        : 'border-black/20 dark:border-white/20'
+      }"
                   style="background-color: ${color.hex};"
                   title="${color.name}"
                 ></button>
@@ -1286,22 +1418,21 @@ function renderProductModal() {
             </div>
             <div class="flex flex-wrap gap-2">
               ${product.sizes.map(size => {
-                const isSelected = State.selectedSizeInModal === size;
-                const stockQty = product.stock[size] || 0;
-                return `
+        const isSelected = State.selectedSizeInModal === size;
+        const stockQty = product.stock[size] || 0;
+        return `
                   <button 
                     type="button" 
                     onclick="setModalSize('${size}')"
-                    class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                      isSelected 
-                        ? 'bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] shadow-md scale-105' 
-                        : 'bg-black/5 text-[#1E2050] dark:bg-white/10 dark:text-white hover:bg-black/10'
-                    }"
+                    class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${isSelected
+            ? 'bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] shadow-md scale-105'
+            : 'bg-black/5 text-[#1E2050] dark:bg-white/10 dark:text-white hover:bg-black/10'
+          }"
                   >
                     ${size} ${stockQty < 5 ? `<span class="text-[10px] text-amber-500 ml-1">Sisa ${stockQty}</span>` : ''}
                   </button>
                 `;
-              }).join('')}
+      }).join('')}
             </div>
           </div>
 
@@ -1363,9 +1494,8 @@ function renderProductModal() {
           <button 
             type="button" 
             onclick="toggleWishlist('${product.id}')"
-            class="p-3.5 rounded-xl border border-[#1E2050]/20 dark:border-white/25 flex items-center justify-center transition-colors ${
-              isWishlisted ? 'text-rose-500 bg-rose-500/10' : 'hover:bg-black/5 dark:hover:bg-white/10'
-            }"
+            class="p-3.5 rounded-xl border border-[#1E2050]/20 dark:border-white/25 flex items-center justify-center transition-colors ${isWishlisted ? 'text-rose-500 bg-rose-500/10' : 'hover:bg-black/5 dark:hover:bg-white/10'
+    }"
             title="Simpan ke Wishlist"
           >
             <i data-lucide="heart" class="w-5 h-5 ${isWishlisted ? 'fill-current' : ''}"></i>
@@ -1455,22 +1585,20 @@ function renderSizeGuideTables() {
       <button 
         type="button" 
         onclick="switchSizeGuideTab('adult')"
-        class="flex-1 py-2 text-xs md:text-sm font-bold rounded-lg transition-all ${
-          isAdult 
-            ? 'bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] shadow-sm' 
-            : 'text-gray-500 hover:text-black dark:text-gray-300'
-        }"
+        class="flex-1 py-2 text-xs md:text-sm font-bold rounded-lg transition-all ${isAdult
+      ? 'bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] shadow-sm'
+      : 'text-gray-500 hover:text-black dark:text-gray-300'
+    }"
       >
         Ukuran Dewasa (S - XXL)
       </button>
       <button 
         type="button" 
         onclick="switchSizeGuideTab('kids')"
-        class="flex-1 py-2 text-xs md:text-sm font-bold rounded-lg transition-all ${
-          !isAdult 
-            ? 'bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] shadow-sm' 
-            : 'text-gray-500 hover:text-black dark:text-gray-300'
-        }"
+        class="flex-1 py-2 text-xs md:text-sm font-bold rounded-lg transition-all ${!isAdult
+      ? 'bg-[#1E2050] text-white dark:bg-white dark:text-[#1E2050] shadow-sm'
+      : 'text-gray-500 hover:text-black dark:text-gray-300'
+    }"
       >
         Ukuran Anak (4 - 14 Tahun)
       </button>
@@ -1688,7 +1816,7 @@ function openSearchModal() {
 
   modal.classList.remove('pointer-events-none', 'opacity-0', 'scale-95');
   modal.classList.add('pointer-events-auto', 'opacity-100', 'scale-100');
-  
+
   if (input) {
     input.value = '';
     setTimeout(() => input.focus(), 100);
@@ -1734,7 +1862,7 @@ function handleSearchInput(query) {
     return;
   }
 
-  const matches = PRODUCTS.filter(p => 
+  const matches = PRODUCTS.filter(p =>
     p.name.toLowerCase().includes(q) ||
     p.category.toLowerCase().includes(q) ||
     p.description.toLowerCase().includes(q) ||
@@ -1852,7 +1980,7 @@ function renderCheckoutSummary() {
 
 function processPayment(e) {
   e.preventDefault();
-  
+
   const submitBtn = document.getElementById('pay-submit-btn');
   if (submitBtn) {
     submitBtn.disabled = true;
