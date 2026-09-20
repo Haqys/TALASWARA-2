@@ -1979,3 +1979,7 @@ window.renderCheckoutSummary = renderCheckoutSummary;
 window.processPayment = processPayment;
 window.openSuccessModal = openSuccessModal;
 window.closeSuccessModal = closeSuccessModal;
+
+window.State = State;
+
+window.PRODUCTS = PRODUCTS;
